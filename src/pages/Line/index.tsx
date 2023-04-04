@@ -116,7 +116,7 @@ const Earth = () => {
 
       line1 = new THREE.Line(geo, matLineBasic);
       line1.computeLineDistances();
-      line.position.setZ(50)
+      line1.position.setZ(50)
       scene.add(line1);
 
       stats = new Stats();

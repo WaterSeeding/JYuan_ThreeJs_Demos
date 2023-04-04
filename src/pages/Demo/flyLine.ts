@@ -39,7 +39,7 @@ const makeFlyLine = (option: any, group: THREE.Group) => {
 
   const points = curve.getPoints(number);
 
-  setFlyPath(group, points);
+  // setFlyPath(group, points);
   // 粒子位置计算
   points.forEach((elem, i) => {
     const index = i / (number - 1);

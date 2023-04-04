@@ -1,7 +1,10 @@
 import styles from './index.less';
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { Line2 } from 'three/examples/jsm/lines/Line2.js';
+import { LineMaterial } from 'three/examples/jsm/lines/LineMaterial.js';
+import { LineGeometry } from 'three/examples/jsm/lines/LineGeometry.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { initScene } from './main';
 import { setFlyLine } from './flyLine';
 
@@ -9,6 +12,7 @@ const Earth = () => {
   let earthRef = useRef<THREE.Group | any>(null);
   let cameraRef = useRef<THREE.PerspectiveCamera | any>(null);
   let controlsRef = useRef<OrbitControls | any>(null);
+  let fatLineRef = useRef<Line2 | any>(null);
 
   const [isInitScene, setIsInitScene] = useState<boolean>(false);
 
@@ -63,6 +67,7 @@ const Earth = () => {
           ];
           let flyLineGroup = new THREE.Group();
           setFlyLine(flyLineGroup, lineData, uniforms);
+          setFatLine(flyLineGroup, lineData);
           earth.add(flyLineGroup);
         },
         () => {
@@ -75,10 +80,72 @@ const Earth = () => {
               isStart = false;
             }
           }
+
+          fatLineRef.current?.resolution.set(
+            window.innerWidth,
+            window.innerHeight,
+          );
         },
       );
     }
   }, []);
+
+  const setFatLine = (group: THREE.Group, option: any): any => {
+    const { source, target, height } = option[0];
+
+    const _source = new THREE.Vector3(source.x, source.y, source.z);
+    const _target = new THREE.Vector3(target.x, target.y, target.z);
+    const _center = _target.clone().lerp(_source, 0.5);
+    _center.z += height;
+
+    let number = parseInt(
+      _source.distanceTo(_center) + _target.distanceTo(_center) + '',
+    );
+
+    console.log("number", number)
+    if (number < 300) {
+      number = 300;
+    }
+
+    const positions = [];
+    const colors = [];
+
+    const spline: THREE.QuadraticBezierCurve3 = new THREE.QuadraticBezierCurve3(
+      _source,
+      _center,
+      _target,
+    );
+
+    const point = new THREE.Vector3();
+    const color = new THREE.Color();
+
+    for (let i = 0, l = number; i < l; i++) {
+      const t = i / l;
+
+      spline.getPoint(t, point);
+      positions.push(point.x, point.y, point.z);
+
+      color.setHSL(t, 1.0, 0.5);
+      colors.push(color.r, color.g, color.b);
+    }
+
+    const geometry = new LineGeometry();
+    geometry.setPositions(positions);
+    geometry.setColors(colors);
+
+    fatLineRef.current = new LineMaterial({
+      color: 0x00ffff,
+      linewidth: 4,
+      vertexColors: true,
+      dashed: false,
+      alphaToCoverage: false,
+    });
+
+    let line = new Line2(geometry, fatLineRef.current);
+    line.computeLineDistances();
+    line.position.setZ(0);
+    group.add(line);
+  };
 
   return (
     <div className={styles.container}>
