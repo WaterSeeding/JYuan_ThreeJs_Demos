@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "author": "JYuan <13826506407@139.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,less}": [
+      "umi lint"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^2.0.1",
+    "@tweenjs/tween.js": "^19.0.0",
+    "@umijs/max": "^4.0.64",
+    "antd": "^5.0.0",
+    "three": "^0.151.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/three": "^0.150.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "typescript": "^5.0.0"
+  }
+}
