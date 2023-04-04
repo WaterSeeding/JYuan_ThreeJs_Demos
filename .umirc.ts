@@ -25,17 +25,22 @@ export default defineConfig({
       component: './Access',
     },
     {
-        name: ' CRUD 示例',
-        path: '/table',
-        component: './Table',
+      name: ' CRUD 示例',
+      path: '/table',
+      component: './Table',
     },
     {
       name: ' DEMO 示例',
       path: '/demo',
       component: './Demo',
-      layout: false
-  },
+      layout: false,
+    },
+    {
+      name: ' Line 示例',
+      path: '/line',
+      component: './Line',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
-
