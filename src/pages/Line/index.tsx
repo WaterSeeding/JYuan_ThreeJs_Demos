@@ -22,6 +22,7 @@ const Earth = () => {
     let renderer: any, scene: any, camera: any, controls: any;
     let line: any;
     let line1: any;
+    let line2: any;
     let matLine: any, matLineBasic: any;
     let stats: any;
 
@@ -93,16 +94,17 @@ const Earth = () => {
 
       matLine = new LineMaterial({
         color: 0xffffff,
-        linewidth: 4,
+        linewidth: 6,
         vertexColors: true,
         dashed: false,
+        gapSize: 10,
         alphaToCoverage: false,
       });
 
       line = new Line2(geometry, matLine);
       line.computeLineDistances();
       line.scale.set(1, 1, 1);
-      line.position.setZ(-50)
+      line.position.setZ(-50);
       scene.add(line);
 
       const geo = new THREE.BufferGeometry();
@@ -116,8 +118,25 @@ const Earth = () => {
 
       line1 = new THREE.Line(geo, matLineBasic);
       line1.computeLineDistances();
-      line1.position.setZ(50)
+      line1.position.setZ(0);
       scene.add(line1);
+
+      const geo2 = new THREE.BufferGeometry();
+      geo2.setAttribute(
+        'position',
+        new THREE.Float32BufferAttribute(positions, 3),
+      );
+      geo2.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+
+      matLineBasic = new THREE.LineBasicMaterial({
+        vertexColors: true,
+        linewidth: 10,
+      });
+
+      line2 = new THREE.Line(geo2, matLineBasic);
+      line2.computeLineDistances();
+      line2.position.setZ(50);
+      scene.add(line2);
 
       stats = new Stats();
       document.body.appendChild(stats.dom);
