@@ -41,6 +41,24 @@ export default defineConfig({
       component: './Line',
       layout: false,
     },
+    {
+      name: ' Sun 示例',
+      path: '/sun',
+      component: './Sun',
+      layout: false,
+    },
+    {
+      name: ' Sun 示例',
+      path: '/sun',
+      component: './Sun',
+      layout: false,
+    },
+    {
+      name: ' Composer 示例',
+      path: '/composer',
+      component: './Composer',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
