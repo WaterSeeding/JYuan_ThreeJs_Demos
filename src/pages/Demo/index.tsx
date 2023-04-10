@@ -61,7 +61,7 @@ const Earth = () => {
               color: '#00ffff',
               speed: 0.2,
               size: 400,
-              height: 100,
+              height: 200,
               rang: 100,
             },
           ];
@@ -137,12 +137,17 @@ const Earth = () => {
       color: 0x00ffff,
       linewidth: 4,
       vertexColors: true,
-      dashed: false,
+      // dashed: true,
+      // dashScale: 0.5,
+      // dashSize: 0.6,
+      // gapSize: 0.6,
       alphaToCoverage: false,
     });
 
     let line = new Line2(geometry, fatLineRef.current);
     line.computeLineDistances();
+
+    console.log("line", line);
     line.position.setZ(0);
     group.add(line);
   };

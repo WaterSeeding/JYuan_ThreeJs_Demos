@@ -25,23 +25,24 @@ export default defineConfig({
       component: './Access',
     },
     {
-      name: ' CRUD 示例',
+      name: 'CRUD 示例',
       path: '/table',
       component: './Table',
     },
     {
-      name: ' DEMO 示例',
+      name: 'DEMO 示例',
       path: '/demo',
       component: './Demo',
       layout: false,
     },
     {
-      name: ' Line 示例',
+      name: 'Line 示例',
       path: '/line',
       component: './Line',
       layout: false,
     },
     {
+<<<<<<< HEAD
       name: ' Sun 示例',
       path: '/sun',
       component: './Sun',
@@ -57,6 +58,11 @@ export default defineConfig({
       name: ' Composer 示例',
       path: '/composer',
       component: './Composer',
+=======
+      name: 'Bloom 示例',
+      path: '/bloom',
+      component: './Bloom',
+>>>>>>> e264a8af55667ce1898ff721f16b5e9f9c6bce81
       layout: false,
     },
   ],
