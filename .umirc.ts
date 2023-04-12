@@ -71,6 +71,12 @@ export default defineConfig({
       component: './Composer',
       layout: false,
     },
+    {
+      name: ' Outline 示例',
+      path: '/outline',
+      component: './Outline',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
