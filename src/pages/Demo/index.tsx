@@ -46,6 +46,8 @@ const Earth = () => {
           cameraRef.current = camera;
           controlsRef.current = controls;
 
+          addObj(earth);
+
           const lineData = [
             {
               source: {
@@ -102,7 +104,7 @@ const Earth = () => {
       _source.distanceTo(_center) + _target.distanceTo(_center) + '',
     );
 
-    console.log("number", number)
+    console.log('number', number);
     if (number < 300) {
       number = 300;
     }
@@ -137,19 +139,34 @@ const Earth = () => {
       color: 0x00ffff,
       linewidth: 4,
       vertexColors: true,
-      // dashed: true,
-      // dashScale: 0.5,
-      // dashSize: 0.6,
-      // gapSize: 0.6,
       alphaToCoverage: false,
     });
 
     let line = new Line2(geometry, fatLineRef.current);
     line.computeLineDistances();
-
-    console.log("line", line);
+    line.layers.enable(1);
     line.position.setZ(0);
     group.add(line);
+  };
+
+  const addObj = (earth: THREE.Group) => {
+    let objGroup = new THREE.Group();
+    objGroup.scale.set(10, 10, 10);
+    earth.add(objGroup);
+    let obj = new THREE.Mesh(
+      new THREE.BoxGeometry(5, 5, 4),
+      new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: false }),
+    );
+    obj.position.z = 0.25;
+    obj.layers.enable(1);
+    objGroup.add(obj);
+
+    let objBack = new THREE.Mesh(
+      new THREE.BoxGeometry(5, 5, 1),
+      new THREE.MeshBasicMaterial({ color: 'blue', wireframe: false }),
+    );
+    objBack.position.z = -2.25;
+    objGroup.add(objBack);
   };
 
   return (

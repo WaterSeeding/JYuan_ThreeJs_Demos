@@ -5,15 +5,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
+import { FXAAShader } from 'three/examples/jsm/shaders/FXAAShader.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
-
-const params = {
-  exposure: 1,
-  bloomStrength: 5,
-  bloomThreshold: 0,
-  bloomRadius: 0,
-  scene: 'Scene with Glow',
-};
 
 const getCubeMapTexture = (renderer: THREE.WebGLRenderer, path: string) => {
   return new Promise((resolve, reject) => {
@@ -45,11 +38,11 @@ export const initScene = (cb?: Function, updateCb?: Function): void => {
     canvas: document.querySelector('canvas.webgl')!,
     antialias: true,
   });
+  renderer.setClearColor(0x000000);
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-  renderer.shadowMap.enabled = true;
-  renderer.toneMapping = THREE.CineonToneMapping;
+  renderer.toneMapping = THREE.LinearToneMapping;
 
   const scene = new THREE.Scene();
   const axesHelper = new THREE.AxesHelper(500);
@@ -61,6 +54,7 @@ export const initScene = (cb?: Function, updateCb?: Function): void => {
   camera.position.set(0, 1000, 500);
   camera.lookAt(0, 0, 0);
   camera.updateProjectionMatrix();
+  camera.layers.enable(1);
 
   const earth = new THREE.Group();
   let controls: null | OrbitControls = null;
@@ -106,12 +100,8 @@ export const initScene = (cb?: Function, updateCb?: Function): void => {
     },
   );
 
-  let { bloomComposer, finalComposer } = addBloom(
-    scene,
-    camera,
-    renderer,
-    params,
-  );
+  const composer = addComposer(renderer, scene, camera, canvas);
+  console.log('后期处理', composer);
 
   // 🌏
   const textLoader = new THREE.TextureLoader();
@@ -133,34 +123,21 @@ export const initScene = (cb?: Function, updateCb?: Function): void => {
   earth.rotateX(-Math.PI / 2);
   scene.add(earth);
 
-  function renderBloom(mask: any) {
-    scene.traverse(darkenNonBloomed);
-    bloomComposer.render();
-    scene.traverse(restoreMaterial);
-  }
-
-  function darkenNonBloomed(obj: any) {
-    if (obj.isMesh && bloomLayer.test(obj.layers) === false) {
-      materials[obj.uuid] = obj.material;
-      obj.material = darkMaterial;
-    }
-  }
-
-  function restoreMaterial(obj: any) {
-    if (materials[obj.uuid]) {
-      obj.material = materials[obj.uuid];
-      delete materials[obj.uuid];
-    }
-  }
-
   const animate = () => {
     requestAnimationFrame(animate);
     TWEEN && TWEEN.update();
     controls?.update();
     updateCb?.();
-    // renderer.render(scene, camera);
-    renderBloom(true);
-    finalComposer.render();
+
+    renderer.autoClear = false;
+    renderer.clear();
+    camera.layers.set(1);
+    if (composer) {
+      composer.render();
+    }
+    renderer.clearDepth();
+    camera.layers.set(0);
+    renderer.render(scene, camera);
   };
   animate();
 
@@ -173,58 +150,37 @@ export const initScene = (cb?: Function, updateCb?: Function): void => {
   });
 };
 
-const addBloom = (
-  scene: THREE.Scene,
-  camera: THREE.Camera,
+const addComposer = (
   renderer: THREE.WebGLRenderer,
-  params: any,
+  scene: THREE.Scene,
+  camera: THREE.PerspectiveCamera,
+  canvas: HTMLCanvasElement,
 ) => {
-  const renderScene = new RenderPass(scene, camera);
+  let renderScene = new RenderPass(scene, camera);
+  let effectFXAA = new ShaderPass(FXAAShader);
+  effectFXAA.uniforms.resolution.value.set(
+    1 / canvas.offsetWidth,
+    1 / canvas.offsetHeight,
+  );
 
   const bloomPass = new UnrealBloomPass(
-    new THREE.Vector2(window.innerWidth, window.innerHeight),
+    new THREE.Vector2(canvas.offsetWidth, canvas.offsetHeight),
     1.5,
     0.4,
     0.85,
   );
-  bloomPass.threshold = params.bloomThreshold;
-  bloomPass.strength = params.bloomStrength;
-  bloomPass.radius = params.bloomRadius;
+  bloomPass.threshold = 0;
+  bloomPass.strength = 1.0;
+  bloomPass.radius = 0.0;
 
-  const bloomComposer = new EffectComposer(renderer);
-  bloomComposer.renderToScreen = false;
-  bloomComposer.addPass(renderScene);
-  bloomComposer.addPass(bloomPass);
-
-  const finalPass = new ShaderPass(
-    new THREE.ShaderMaterial({
-      uniforms: {
-        baseTexture: { value: null },
-        bloomTexture: { value: bloomComposer.renderTarget2.texture },
-      },
-      vertexShader: `
-          varying vec2 vUv;
-          void main() {
-            vUv = uv;
-            gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
-          }
-        `,
-      fragmentShader: `
-          uniform sampler2D baseTexture;
-          uniform sampler2D bloomTexture;
-          varying vec2 vUv;
-          void main() {
-            gl_FragColor = ( texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
-          }
-        `,
-      defines: {},
-    }),
-    'baseTexture',
+  const renderTarget = new THREE.WebGLRenderTarget(
+    canvas.offsetWidth,
+    canvas.offsetHeight,
   );
-  finalPass.needsSwap = true;
+  let composer = new EffectComposer(renderer, renderTarget);
 
-  const finalComposer = new EffectComposer(renderer);
-  finalComposer.addPass(renderScene);
-  finalComposer.addPass(finalPass);
-  return { bloomComposer, finalComposer };
+  composer.addPass(renderScene);
+  composer.addPass(effectFXAA);
+  composer.addPass(bloomPass);
+  return composer;
 };

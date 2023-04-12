@@ -232,6 +232,7 @@ const Earth = () => {
     line.computeLineDistances();
     line.position.setZ(0);
     line.layers.enable(BLOOM_SCENE);
+    line.visible = false;
     scene.add(line);
   };
 

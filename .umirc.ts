@@ -42,7 +42,6 @@ export default defineConfig({
       layout: false,
     },
     {
-<<<<<<< HEAD
       name: ' Sun 示例',
       path: '/sun',
       component: './Sun',
@@ -52,17 +51,24 @@ export default defineConfig({
       name: ' Sun 示例',
       path: '/sun',
       component: './Sun',
+      layout: false,
+    },
+    {
+      name: ' Bloom 示例',
+      path: '/bloom',
+      component: './Bloom',
+      layout: false,
+    },
+    {
+      name: ' UnrealBloom 示例',
+      path: '/unrealBloom',
+      component: './UnrealBloom',
       layout: false,
     },
     {
       name: ' Composer 示例',
       path: '/composer',
       component: './Composer',
-=======
-      name: 'Bloom 示例',
-      path: '/bloom',
-      component: './Bloom',
->>>>>>> e264a8af55667ce1898ff721f16b5e9f9c6bce81
       layout: false,
     },
   ],
