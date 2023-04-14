@@ -66,6 +66,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' CircularCoil 示例',
+      path: '/circularCoil',
+      component: './CircularCoil',
+      layout: false,
+    },
+    {
       name: ' Composer 示例',
       path: '/composer',
       component: './Composer',
