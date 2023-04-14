@@ -83,6 +83,12 @@ export default defineConfig({
       component: './Outline',
       layout: false,
     },
+    {
+      name: ' Isolychn 示例',
+      path: '/isolychn',
+      component: './Isolychn',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
