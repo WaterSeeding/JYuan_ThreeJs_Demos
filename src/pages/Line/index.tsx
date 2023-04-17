@@ -23,7 +23,7 @@ const Earth = () => {
     let line: any;
     let line1: any;
     let line2: any;
-    let matLine: any, matLineBasic: any;
+    let matLine: any, matLineBasic1: any, matLineBasic2: any;
     let stats: any;
 
     init();
@@ -92,6 +92,17 @@ const Earth = () => {
       geometry.setPositions(positions);
       geometry.setColors(colors);
 
+      const colorMap = new THREE.TextureLoader().load(
+        require('./image/color.png'),
+      );
+      // colorMap.center = new THREE.Vector2(0.5, 0.5);
+      colorMap.rotation = Math.PI / 4;
+      colorMap.needsUpdate = true
+      colorMap.onUpdate = () => {
+        console.log('colorMap', colorMap);
+      }
+      // colorMap.wrapS = THREE.RepeatWrapping;
+      // colorMap.wrapT = THREE.RepeatWrapping;
       matLine = new LineMaterial({
         color: 0xffffff,
         linewidth: 6,
@@ -99,6 +110,20 @@ const Earth = () => {
         dashed: false,
         gapSize: 10,
         alphaToCoverage: false,
+        // @ts-ignore;
+        // onBeforeCompile: (shader) => {
+        //   shader.uniforms.colorMap = { value: colorMap };
+        //   console.log('shader', shader);
+        //   shader.fragmentShader = `
+        //     uniform sampler2D colorMap;
+        //     ${shader.fragmentShader}
+        //   `.replace(
+        //     `#include <premultiplied_alpha_fragment>`,
+        //     `#include <premultiplied_alpha_fragment>
+        //       gl_FragColor = texture2D(colorMap, vUv);
+        //     `,
+        //   );
+        // },
       });
 
       line = new Line2(geometry, matLine);
@@ -114,9 +139,9 @@ const Earth = () => {
       );
       geo.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
 
-      matLineBasic = new THREE.LineBasicMaterial({ vertexColors: true });
+      matLineBasic1 = new THREE.LineBasicMaterial({ vertexColors: true });
 
-      line1 = new THREE.Line(geo, matLineBasic);
+      line1 = new THREE.Line(geo, matLineBasic1);
       line1.computeLineDistances();
       line1.position.setZ(0);
       scene.add(line1);
@@ -128,12 +153,12 @@ const Earth = () => {
       );
       geo2.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
 
-      matLineBasic = new THREE.LineBasicMaterial({
+      matLineBasic2 = new THREE.LineBasicMaterial({
         vertexColors: true,
         linewidth: 10,
       });
 
-      line2 = new THREE.Line(geo2, matLineBasic);
+      line2 = new THREE.Line(geo2, matLineBasic2);
       line2.computeLineDistances();
       line2.position.setZ(50);
       scene.add(line2);

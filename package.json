@@ -21,7 +21,8 @@
     "@tweenjs/tween.js": "^19.0.0",
     "@umijs/max": "^4.0.64",
     "antd": "^5.0.0",
-    "three": "^0.151.2"
+    "three": "^0.151.2",
+    "three.meshline": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

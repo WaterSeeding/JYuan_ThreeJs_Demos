@@ -89,6 +89,12 @@ export default defineConfig({
       component: './Isolychn',
       layout: false,
     },
+    {
+      name: ' Plane 示例',
+      path: '/plane',
+      component: './Plane',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });

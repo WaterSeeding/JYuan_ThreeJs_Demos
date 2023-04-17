@@ -15,6 +15,7 @@ specifiers:
   prettier-plugin-organize-imports: ^2
   prettier-plugin-packagejson: ^2
   three: ^0.151.2
+  three.meshline: ^1.4.0
   typescript: ^5.0.0
 
 dependencies:
@@ -24,6 +25,7 @@ dependencies:
   '@umijs/max': 4.0.64_7iirswgjab5lcu3kt6z76ix6pu
   antd: 5.3.3
   three: 0.151.2
+  three.meshline: 1.4.0
 
 devDependencies:
   '@types/react': 18.0.32
@@ -10911,6 +10913,10 @@ packages:
     resolution: {integrity: sha512-UkEhKIg2pD+fjkHQKyJO3yoIvAP3N6RlNFt2dUhcS1FGvCD1cQa1M/PGknCLFIyZdtJOWQjejp7bdNqmN7zwdA==}
     dependencies:
       real-require: 0.1.0
+    dev: false
+
+  /three.meshline/1.4.0:
+    resolution: {integrity: sha512-A8IsiMrWP8zmHisGDAJ76ZD7t/dOF/oCe/FUKNE6Bu01ZYEx8N6IlU/1Plb2aOZtAuWM2A8s8qS3hvY0OFuvOw==}
     dev: false
 
   /three/0.151.2:

@@ -1,39 +1,25 @@
 import styles from './index.less';
 import { useEffect, useState } from 'react';
 import * as THREE from 'three';
-import {
-  Clock,
-  Color,
-  PerspectiveCamera,
-  ReinhardToneMapping,
-  Scene,
-  WebGLRenderer,
-} from 'three';
-import Stats from 'three/examples/jsm/libs/stats.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { Tetrahedra } from './js/Tetrahedra';
 import { Postprocessing } from './js/Postprocessing';
+import setSpherePoint from './setSpherePoint';
 
 const Earth = () => {
   const [isInitScene, setIsInitScene] = useState<boolean>(false);
 
   const initScene: any = () => {
-    let renderer: any, scene: any, camera: any, controls: any;
-    let stats: any;
-
+    let renderer: any;
     let bg = {
       on: 0x321632,
       off: 0x000000,
     };
 
     function init() {
-      let bg = {
-        on: 0x321632,
-        off: 0x000000,
-      };
-      let scene = new Scene();
-      scene.background = new Color(bg.on);
-      let camera = new PerspectiveCamera(
+      let scene = new THREE.Scene();
+      scene.background = new THREE.Color(bg.on);
+      let camera = new THREE.PerspectiveCamera(
         45,
         window.innerWidth / window.innerHeight,
         1,
@@ -48,89 +34,63 @@ const Earth = () => {
         canvas: canvas!,
         antialias: true,
       });
+      renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.toneMapping = THREE.LinearToneMapping;
 
-      renderer.setSize(window.innerWidth, window.innerHeight);
-      renderer.toneMapping = ReinhardToneMapping;
-      window.addEventListener('resize', (event) => {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        postprocessing.bloomComposer.setSize(
-          window.innerWidth,
-          window.innerHeight,
-        );
-        postprocessing.finalComposer.setSize(
-          window.innerWidth,
-          window.innerHeight,
-        );
-      });
+      const sphereGroup = new THREE.Group();
+      scene.add(sphereGroup);
 
       let controls = new OrbitControls(camera, renderer.domElement);
       controls.enableDamping = true;
       controls.enablePan = false;
-      controls.autoRotate = true;
+      controls.autoRotate = false;
 
       let gu = {
         globalBloom: { value: 0 },
       };
 
       let tetraCount = 10;
-      let tetrahedra = new Tetrahedra(tetraCount, gu);
+      let tetrahedra = new Tetrahedra(scene, tetraCount, gu);
       tetrahedra.material.linewidth = 0.25;
       tetrahedra.items.forEach((t, i) => {
         t.position
           .randomDirection()
           .setLength(Math.sqrt(Math.pow(50, 2) * Math.random()));
         t.scale.setScalar(5);
-        t.userData = {
-          rotInit: {
-            x: Math.random() * Math.PI * 2,
-            y: Math.random() * Math.PI * 2,
-            z: Math.random() * Math.PI * 2,
-          },
-          rotSpeed: {
-            x: Math.random() * Math.PI * 0.2,
-            y: Math.random() * Math.PI * 0.2,
-            z: Math.random() * Math.PI * 0.2,
-          },
-        };
         tetrahedra.setColorAt(i, Math.random() < 0.5 ? 0xff0000 : 0x007fff);
       });
       tetrahedra.items[0].position.set(0, 0, 0);
-      tetrahedra.items[0].scale.setScalar(50);
+      tetrahedra.items[0].scale.setScalar(10);
       tetrahedra.setColorAt(0, 0xff00ff);
+      tetrahedra.items.forEach((item) => {
+        setSpherePoint(sphereGroup, item.position, 0x00ff00);
+      });
+
       scene.add(tetrahedra);
 
       let postprocessing = new Postprocessing(scene, camera, renderer);
+      postprocessing.bloomComposer!.setSize(
+        window.innerWidth,
+        window.innerHeight,
+      );
+      postprocessing.finalComposer!.setSize(
+        window.innerWidth,
+        window.innerHeight,
+      );
 
-      let clock = new Clock();
-
-      renderer.setAnimationLoop((_) => {
+      const animate = () => {
+        requestAnimationFrame(animate);
         controls.update();
-        let t = clock.getElapsedTime();
-        tetrahedra.items.forEach((ti, idx) => {
-          let ud = ti.userData;
-          let ri = ud.rotInit;
-          let rs = ud.rotSpeed;
-          let dir = idx % 2 === 0 ? -1 : 1;
-          ti.rotation.set(
-            ri.x + rs.x * t * dir,
-            ri.y + rs.y * t * dir,
-            ri.z + rs.z * t * dir,
-          );
-        });
         tetrahedra.update();
-
-        // postprocessing
         gu.globalBloom.value = 1;
-        scene.background.set(bg.off);
-        postprocessing.bloomComposer.render();
+        scene.background!.set(bg.off);
+        postprocessing.bloomComposer!.render();
         gu.globalBloom.value = 0;
-        scene.background.set(bg.on);
-        postprocessing.finalComposer.render();
-
-        // renderer.render(scene, camera);
-      });
+        scene.background!.set(bg.on);
+        postprocessing.finalComposer!.render();
+      };
+      animate();
     }
 
     init();
