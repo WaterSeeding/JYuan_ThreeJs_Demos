@@ -95,6 +95,18 @@ export default defineConfig({
       component: './Plane',
       layout: false,
     },
+    {
+      name: 'LineSvg 示例',
+      path: '/lineSvg',
+      component: './LineSvg',
+      layout: false,
+    },
+    {
+      name: 'LineWidth 示例',
+      path: '/lineWidth',
+      component: './LineWidth',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });

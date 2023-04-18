@@ -117,6 +117,7 @@ const Earth = () => {
 
     const point = new THREE.Vector3();
     const color = new THREE.Color();
+    let wdth = [];
 
     for (let i = 0, l = number; i < l; i++) {
       const t = i / l;
@@ -126,32 +127,51 @@ const Earth = () => {
 
       color.setHSL(t, 1.0, 0.5);
       colors.push(color.r, color.g, color.b);
+      if (i < number - 1) wdth.push(THREE.MathUtils.randInt(2, 20));
+      // wdth.push(4.8 * 4)
     }
 
     const geometry = new LineGeometry();
     geometry.setPositions(positions);
     geometry.setColors(colors);
+    geometry.setAttribute(
+      'linewidth',
+      new THREE.InstancedBufferAttribute(new Float32Array(wdth), 1),
+    );
+    console.log('wdth', wdth);
 
     const colorMap = new THREE.TextureLoader().load(
       require('./image/color2.png'),
     );
+    // colorMap.center = new THREE.Vector2(0.5, 0.5);
+    colorMap.rotation = Math.PI / 4;
+    colorMap.needsUpdate = true;
 
     fatLineRef.current = new LineMaterial({
-      linewidth: 4.8 * 4,
-      transparent: false,
+      color: 0xffffff,
+      //linewidth: 5, // in pixels
+      vertexColors: true,
+      //resolution:  // to be set by renderer, eventually
+      dashed: false,
+      alphaToCoverage: true,
+      transparent: true,
       // @ts-ignore;
       onBeforeCompile: (shader) => {
-        console.log(shader);
         shader.uniforms.colorMap = { value: colorMap };
-        shader.fragmentShader = `
-            uniform sampler2D colorMap;
-            ${shader.fragmentShader}
-          `.replace(
-          `#include <premultiplied_alpha_fragment>`,
-          `#include <premultiplied_alpha_fragment>
-            gl_FragColor = texture2D(colorMap, vUv);
-          `,
-        );
+        shader.vertexShader = `
+          ${shader.vertexShader}
+        `.replace(`uniform float linewidth;`, `attribute float linewidth;`);
+        //console.log(shader.vertexShader)
+
+        // shader.fragmentShader = `
+        //     uniform sampler2D colorMap;
+        //     ${shader.fragmentShader}
+        //   `.replace(
+        //   `#include <premultiplied_alpha_fragment>`,
+        //   `#include <premultiplied_alpha_fragment>
+        //       gl_FragColor = texture2D(colorMap, vUv);
+        //     `,
+        // );
       },
     });
 
@@ -167,7 +187,6 @@ const Earth = () => {
       require('./image/color.png'),
     );
     colorMap.center = new THREE.Vector2(0.5, 0.5);
-    // colorMap.rotation = Math.PI / 2;
     colorMap.needsUpdate = true;
 
     const geometry = new THREE.PlaneGeometry(80 * 12, 48);
