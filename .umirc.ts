@@ -107,6 +107,12 @@ export default defineConfig({
       component: './LineWidth',
       layout: false,
     },
+    {
+      name: 'Svg 示例',
+      path: '/svg',
+      component: './Svg',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
