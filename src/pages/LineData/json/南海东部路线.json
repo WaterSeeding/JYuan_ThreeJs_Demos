@@ -1,0 +1,1433 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "LF7-2至深圳卫星",
+        "startNo": "SUB_20230203183746329YI9001",
+        "description": "LF7-2至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.0367165745569,
+            21.744165296066004
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "PY34-1至高栏",
+        "startNo": "SUB_20230203183746328VOX31A",
+        "description": "PY34-1至高栏",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.5",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746328KONO75"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.63046657455914,
+            20.06106258827747
+          ],
+          [
+            113.46042262924493,
+            22.057613364065453
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 0,
+        "xiahang": 0,
+        "name": "胜利油轮至深圳卫星",
+        "startNo": "SUB_202302031837463287RSSP4",
+        "description": "胜利油轮至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "4",
+        "sulu": 0,
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            115.62198268784552,
+            20.73553738899552
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "胜利游轮至挑战平台",
+        "startNo": "SUB_202302031837463287RSSP4",
+        "description": "胜利游轮至挑战平台",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "100",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746328N6I3D1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            115.62198268784552,
+            20.73553738899552
+          ],
+          [
+            115.70712673081387,
+            20.80230808935572
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.134.150.1 - 10.134.148.1",
+        "startNo": "SUB_202302031837463291384U5",
+        "description": "10.134.150.1 - 10.134.148.1",
+        "type": "光纤",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329KW3JG1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.98202907456307,
+            21.314935236119464
+          ],
+          [
+            115.02597438705796,
+            21.17157790503216
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "XJ24-3(旧)--XJ23-1",
+        "startNo": "SUB_202302031837463293M7T64",
+        "description": "XJ24-3(旧)--XJ23-1",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "60",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329Y7455K"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.82547389877818,
+            21.314935236119464
+          ],
+          [
+            114.89413844955536,
+            21.360984721270153
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.20.148 - 10.241.20.150",
+        "startNo": "SUB_20230203183746328RK39Q1",
+        "description": "10.241.20.148 - 10.241.20.150",
+        "type": "光纤",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463288Y2XMA"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.7488137425324,
+            20.411540241189982
+          ],
+          [
+            113.64169704331213,
+            20.493890310117933
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "挑战平台至深圳卫星",
+        "startNo": "SUB_20230203183746328N6I3D1",
+        "description": "挑战平台至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            115.70712673081387,
+            20.80230808935572
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.8.155.104 - 10.8.155.102",
+        "startNo": "SUB_20230203183746329MC3T66",
+        "description": "10.8.155.104 - 10.8.155.102",
+        "type": "光纤",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020318374632970C95Z"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.05868923080882,
+            21.62165773011377
+          ],
+          [
+            116.14657985580756,
+            21.585906761925145
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "EP24-2至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "EP24-2至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.75",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463280G067F"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            113.8833962620564,
+            20.49903572287102
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "HYSY943至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "HYSY943至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746328CB249E"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            113.9987527073768,
+            21.499046251875612
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.8.167.177 - 10.8.167.178",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "10.8.167.177 - 10.8.167.178",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329S11TP8"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            114.05917751206285,
+            21.909894485566554
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.20.155 - 10.241.20.131",
+        "startNo": "SUB_20230203183746328KONO75",
+        "description": "10.241.20.155 - 10.241.20.131",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.46042262924493,
+            22.057613364065453
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.8.155.1 - 10.8.155.2",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "10.8.155.1 - 10.8.155.2",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463299V78ZS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            114.24594509018179,
+            22.057613364065453
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "EP18-1--东澳岛",
+        "startNo": "SUB_202302031837463288Y2XMA",
+        "description": "EP18-1--东澳岛",
+        "type": "散射",
+        "region": "南海东部",
+        "daikuan": "100",
+        "sulu": "0",
+        "endNo": "SUROWG470L5620230222111702139"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.64169704331213,
+            20.493890310117933
+          ],
+          [
+            113.84219753159189,
+            22.17974692643214
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.20.154 - 10.241.20.131",
+        "startNo": "SUB_20230203183746328EH4R4Q",
+        "description": "10.241.20.154 - 10.241.20.131",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.54007350815256,
+            22.144135571132967
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "XJ24-3--担杆岛",
+        "startNo": "SUB_20230203183746329Y7455K",
+        "description": "XJ24-3--担杆岛",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "60",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463299V78ZS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.89413844955536,
+            21.360984721270153
+          ],
+          [
+            114.24594509018179,
+            22.057613364065453
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "PY4-2B--XJ23-1",
+        "startNo": "SUB_2023020318374632891ZB47",
+        "description": "PY4-2B--XJ23-1",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "100",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463293M7T64"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.6084939183072,
+            20.822846979128894
+          ],
+          [
+            114.82547389877818,
+            21.314935236119464
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "LF13-2B--HZ21-1",
+        "startNo": "SUB_20230203183746329MC3T66",
+        "description": "LF13-2B--HZ21-1",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "34",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329934G47"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.05868923080882,
+            21.62165773011377
+          ],
+          [
+            115.42148219955675,
+            21.360984721270153
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "LF131至深圳卫星",
+        "startNo": "SUB_2023020318374632970C95Z",
+        "description": "LF131至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.75",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.14657985580756,
+            21.585906761925145
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "PY4-2B--EP18-1",
+        "startNo": "SUB_202302031837463288Y2XMA",
+        "description": "PY4-2B--EP18-1",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "80",
+        "sulu": "0",
+        "endNo": "SUB_2023020318374632891ZB47"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.64169704331213,
+            20.493890310117933
+          ],
+          [
+            114.6084939183072,
+            20.822846979128894
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "PY5-1A至深圳卫星",
+        "startNo": "SUB_20230203183746328D8MHWK",
+        "description": "PY5-1A至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.80624782455662,
+            20.86904924102889
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "PY5-1--Y4-2B",
+        "startNo": "SUB_20230203183746328D8MHWK",
+        "description": "PY5-1--Y4-2B",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "100",
+        "sulu": "0",
+        "endNo": "SUB_2023020318374632891ZB47"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.80624782455662,
+            20.86904924102889
+          ],
+          [
+            114.6084939183072,
+            20.822846979128894
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.20.144 - 10.241.20.143",
+        "startNo": "SUB_2023020318374632970C95Z",
+        "description": "10.241.20.144 - 10.241.20.143",
+        "type": "光纤",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329MC3T66"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.14657985580756,
+            21.585906761925145
+          ],
+          [
+            116.05868923080882,
+            21.62165773011377
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "NH6至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "NH6至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463283T2001"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            114.01523219955901,
+            19.908772431368543
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "HZ26-1至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "HZ26-1至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_2023020318374632919X12X"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            115.26767360581121,
+            21.17157790503216
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "惠州211至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "惠州211至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329934G47"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            115.42148219955675,
+            21.360984721270153
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "XJ23-1--北尖岛",
+        "startNo": "SUB_202302031837463293M7T64",
+        "description": "XJ23-1--北尖岛",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "82",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329S11TP8"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.82547389877818,
+            21.314935236119464
+          ],
+          [
+            114.05917751206285,
+            21.909894485566554
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "LF132B至深圳",
+        "startNo": "SUB_20230203183746329MC3T66",
+        "description": "LF132B至深圳",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.75",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.05868923080882,
+            21.62165773011377
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "HZ21-1--XJ24-3B",
+        "startNo": "SUB_20230203183746329934G47",
+        "description": "HZ21-1--XJ24-3B",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "160",
+        "sulu": "0",
+        "endNo": "SUB_202302031837463291384U5"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            115.42148219955675,
+            21.360984721270153
+          ],
+          [
+            114.98202907456307,
+            21.314935236119464
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 1.22,
+        "xiahang": 9.79,
+        "name": "10.134.132.75 - 10.134.132.74",
+        "startNo": "SUB_20230203183746329R6947X",
+        "description": "10.134.132.75 - 10.134.132.74",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": 11.01,
+        "endNo": "SUB_2023020318374632802T20N"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.96005641831113,
+            20.110073790637756
+          ],
+          [
+            114.89413844955536,
+            20.231246031166656
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "LF7-2--大星山",
+        "startNo": "SUB_20230203183746329YI9001",
+        "description": "LF7-2--大星山",
+        "type": "散射",
+        "region": "南海东部",
+        "daikuan": "100",
+        "sulu": "0",
+        "endNo": "SUB_2023020318374632986Y40T"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.0367165745569,
+            21.744165296066004
+          ],
+          [
+            114.86941921128202,
+            22.796411211364944
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "PY301--横琴",
+        "startNo": "SUB_20230203183746328EH4R4Q",
+        "description": "PY301--横琴",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.5",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329R6947X"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.54007350815256,
+            22.144135571132967
+          ],
+          [
+            114.96005641831113,
+            20.110073790637756
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 1.86,
+        "xiahang": 0.26,
+        "name": "PY30-1--LAND",
+        "startNo": "SUB_20230203183746329R6947X",
+        "description": "PY30-1--LAND",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.75",
+        "sulu": 2.12,
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.96005641831113,
+            20.110073790637756
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 8.23,
+        "xiahang": 0.12,
+        "name": "PY341--LW31",
+        "startNo": "SUB_2023020318374632802T20N",
+        "description": "PY341--LW31",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "200",
+        "sulu": 8.35,
+        "endNo": "SUB_20230203183746328VOX31A"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.89413844955536,
+            20.231246031166656
+          ],
+          [
+            114.63046657455914,
+            20.06106258827747
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 0.09,
+        "xiahang": 0,
+        "name": "PY341至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "PY341至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.5",
+        "sulu": 0.09,
+        "endNo": "SUB_20230203183746328VOX31A"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            114.63046657455914,
+            20.06106258827747
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.8.144.2 - 10.241.20.132",
+        "startNo": "SUB_20230203183746328EH4R4Q",
+        "description": "10.8.144.2 - 10.241.20.132",
+        "type": "光纤",
+        "region": "南海东部",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.54007350815256,
+            22.144135571132967
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 0.01,
+        "xiahang": 0.08,
+        "name": "LW3-1至深圳卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "LW3-1至深圳卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "0.5",
+        "sulu": 0.09,
+        "endNo": "SUB_2023020318374632802T20N"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            114.89413844955536,
+            20.231246031166656
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "XJ24-3--梧桐山",
+        "startNo": "SUB_20230203183746329Y7455K",
+        "description": "XJ24-3--梧桐山",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "2867.2",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329K65Q40"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.89413844955536,
+            21.360984721270153
+          ],
+          [
+            114.44095241440083,
+            22.81413433492535
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "EP151--三灶专线",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "EP151--三灶专线",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "200",
+        "sulu": "0",
+        "endNo": "SUQE0K72S26220230308151649051"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            113.3395730198728,
+            22.06779519996376
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "EP151--三灶",
+        "startNo": "SUQE0K72S26220230308151649051",
+        "description": "EP151--三灶",
+        "type": "散射",
+        "region": "南海东部",
+        "daikuan": "50",
+        "sulu": "0",
+        "endNo": "SUY517XK9MV120230227160703031"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.3395730198728,
+            22.06779519996376
+          ],
+          [
+            113.25168239487405,
+            20.524760194669362
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 0.02,
+        "xiahang": 0.02,
+        "name": "EP151至陆地卫星",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "EP151至陆地卫星",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": 0.04,
+        "endNo": "SUY517XK9MV120230227160703031"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            113.25168239487405,
+            20.524760194669362
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 0.03,
+        "xiahang": 0.03,
+        "name": "HYSY119卫星链路",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "HYSY119卫星链路",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": 0.06,
+        "endNo": "SUBXR833W1JY20230227155802693"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            115.50387966049475,
+            20.393520284163724
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "NH5卫星链路",
+        "startNo": "SUB_20230203183746329I049J7",
+        "description": "NH5卫星链路",
+        "type": "传统卫星",
+        "region": "南海东部",
+        "daikuan": "2",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746328WH64WD"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            113.92734157456026,
+            22.497304262036575
+          ],
+          [
+            115.42148219955675,
+            21.3814465156931
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 0.91,
+        "xiahang": 7.17,
+        "name": "10.8.155.139 - 10.8.155.138",
+        "startNo": "SUB_20230203183746329YI9001",
+        "description": "10.8.155.139 - 10.8.155.138",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": 8.08,
+        "endNo": "SUB_20230203183746329MC3T66"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.0367165745569,
+            21.744165296066004
+          ],
+          [
+            116.05868923080882,
+            21.62165773011377
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "LF72-普宁揭阳",
+        "startNo": "SUB_20230203183746329YI9001",
+        "description": "LF72-普宁揭阳",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "1472",
+        "sulu": "0",
+        "endNo": "SUN01G1SXV2720230406101622366"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.0367165745569,
+            21.744165296066004
+          ],
+          [
+            115.71811305893533,
+            23.236270590572367
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "普宁-深圳中海油大厦B座",
+        "startNo": "SUN01G1SXV2720230406101622366",
+        "description": "普宁-深圳中海油大厦B座",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "300",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            115.71811305893533,
+            23.236270590572367
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 3.54,
+        "xiahang": 30.87,
+        "name": "10.8.155.138 - 10.8.155.139",
+        "startNo": "SUB_20230203183746329MC3T66",
+        "description": "10.8.155.138 - 10.8.155.139",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": 34.41,
+        "endNo": "SUB_20230203183746329YI9001"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            116.05868923080882,
+            21.62165773011377
+          ],
+          [
+            116.0367165745569,
+            21.744165296066004
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": 1.6,
+        "xiahang": 12.83,
+        "name": "10.134.132.74 - 10.134.132.75",
+        "startNo": "SUB_2023020318374632802T20N",
+        "description": "10.134.132.74 - 10.134.132.75",
+        "type": "微波",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": 14.43,
+        "endNo": "SUB_20230203183746329R6947X"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.89413844955536,
+            20.231246031166656
+          ],
+          [
+            114.96005641831113,
+            20.110073790637756
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "梧桐山-深圳中海油大厦B座",
+        "startNo": "SUB_20230203183746329K65Q40",
+        "description": "梧桐山-深圳中海油大厦B座",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "500",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.44095241440083,
+            22.81413433492535
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "大星山-深圳中海油大厦B座",
+        "startNo": "SUB_2023020318374632986Y40T",
+        "description": "大星山-深圳中海油大厦B座",
+        "type": "地面专线",
+        "region": "南海东部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230203183746329I049J7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            114.86941921128202,
+            22.796411211364944
+          ],
+          [
+            113.92734157456026,
+            22.497304262036575
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

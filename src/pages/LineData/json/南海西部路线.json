@@ -1,0 +1,2049 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.92 - 10.174.93.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.92 - 10.174.93.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228OO8SUX"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            112.385886,
+            19.796807
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.250 - 10.175.110.86",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.250 - 10.175.110.86",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227C5JWW8"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            107.750958,
+            18.614072
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.251 - 10.175.110.38",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.251 - 10.175.110.38",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522271QX6QF"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.673902,
+            20.663576
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.8 - 10.174.69.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.8 - 10.174.69.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228N44RB3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.674036,
+            17.674284
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.100 - 10.174.9.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.100 - 10.174.9.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222785D9U3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            115.594652,
+            20.334193
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.7 - 10.175.110.130",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.7 - 10.175.110.130",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522285JKC7K"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            112.05629,
+            19.610537
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.139 - 10.174.41.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.139 - 10.174.41.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227J765JZ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.783652,
+            20.807386
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.254 - 10.174.102.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.254 - 10.174.102.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227DQQP9E"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            107.553337,
+            18.884703
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.254 - 10.174.54.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.254 - 10.174.54.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227B02MMC"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            107.619295,
+            18.489244
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.139 - 10.174.201.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.139 - 10.174.201.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227JY1AQ9"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.739702,
+            20.766272
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.144 - 10.174.115.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.144 - 10.174.115.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227E6Z8B5"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.7397,
+            20.807362
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.254 - 10.174.191.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.254 - 10.174.191.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222882C578"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            112.078251,
+            19.42404
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.100 - 10.174.107.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.100 - 10.174.107.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522279N000K"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            112.188248,
+            19.755552
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.251 - 10.174.101.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.251 - 10.174.101.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522275Q4BBR"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            113.286716,
+            20.478225
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.34 - 10.174.100.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.34 - 10.174.100.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522275XWDEM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            120.075829,
+            38.364354
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.254 - 10.241.71.121",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.254 - 10.241.71.121",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228PV5Q0D"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            109.090865,
+            21.032944
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.251 - 10.175.111.54",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.251 - 10.175.111.54",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522271TZ63T"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.7 - 10.175.110.166",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.7 - 10.175.110.166",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222882C578"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            112.078251,
+            19.42404
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.144 - 10.174.136.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.144 - 10.174.136.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522279C4R44"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            107.597334,
+            18.530935
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.132.40 - 10.174.132.249",
+        "startNo": "SUB_2023020917245222882C578",
+        "description": "10.174.132.40 - 10.174.132.249",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222844M777"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.078251,
+            19.42404
+          ],
+          [
+            112.100224,
+            19.424036
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.132.40 - 10.174.132.246",
+        "startNo": "SUB_2023020917245222882C578",
+        "description": "10.174.132.40 - 10.174.132.246",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228VJM590"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.078251,
+            19.42404
+          ],
+          [
+            112.078254,
+            19.361845
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.124 - 10.175.111.125",
+        "startNo": "SUB_20230209172452228PV5Q0D",
+        "description": "10.175.111.124 - 10.175.111.125",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222895VPCJ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            109.090865,
+            21.032944
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.51 - 10.175.111.52",
+        "startNo": "SUB_20230209172452228PV5Q0D",
+        "description": "10.175.111.51 - 10.175.111.52",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522271TZ63T"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            109.090865,
+            21.032944
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.109 - 10.175.111.108",
+        "startNo": "SUB_202302091724522285JKC7K",
+        "description": "10.175.111.109 - 10.175.111.108",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222882C578"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.05629,
+            19.610537
+          ],
+          [
+            112.078251,
+            19.42404
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.122 - 10.242.12.1",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.122 - 10.242.12.1",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227V856OD"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            110.20331388888889,
+            20.055408333333332
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.19 - 10.175.111.20",
+        "startNo": "SUB_202302091724522274FXL0X",
+        "description": "10.175.111.19 - 10.175.111.20",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227B02MMC"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.87175,
+            18.697514
+          ],
+          [
+            107.619295,
+            18.489244
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.3 - 10.175.111.4",
+        "startNo": "SUB_202302091724522274FXL0X",
+        "description": "10.175.111.3 - 10.175.111.4",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227Z6O748"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.87175,
+            18.697514
+          ],
+          [
+            108.58628,
+            17.548721
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.186 - 10.174.189.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.186 - 10.174.189.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227410I52"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            115.682445,
+            20.23095
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.252 - 10.174.106.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.252 - 10.174.106.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522275XAQLW"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            115.286778,
+            20.416419
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.132.40 - 10.174.132.245",
+        "startNo": "SUB_2023020917245222882C578",
+        "description": "10.174.132.40 - 10.174.132.245",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228SXU24T"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.078251,
+            19.42404
+          ],
+          [
+            112.429871,
+            19.527674
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.71.252 - 10.175.110.194",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.71.252 - 10.175.110.194",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522278JP83S"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            108.717752,
+            20.786833
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.122 - 10.174.36.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.122 - 10.174.36.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222700A74X"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            115.154815,
+            21.258398
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.20 - 10.174.6.254",
+        "startNo": "SUB_20230209172452227B02MMC",
+        "description": "10.175.111.20 - 10.174.6.254",
+        "type": "网线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227C5JWW8"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            107.619295,
+            18.489244
+          ],
+          [
+            107.750958,
+            18.614072
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.132.40 - 10.174.132.229",
+        "startNo": "SUB_2023020917245222882C578",
+        "description": "10.174.132.40 - 10.174.132.229",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522282JU4OU"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.078251,
+            19.42404
+          ],
+          [
+            112.122216,
+            19.465506
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.132.40 - 10.174.145.254",
+        "startNo": "SUB_2023020917245222882C578",
+        "description": "10.174.132.40 - 10.174.145.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522286AH02C"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.078251,
+            19.42404
+          ],
+          [
+            112.100211,
+            19.651924
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.50 - 10.241.70.66",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.50 - 10.241.70.66",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228PV5Q0D"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            109.090865,
+            21.032944
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.50 - 10.174.25.254",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.50 - 10.174.25.254",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228PV5Q0D"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            109.090865,
+            21.032944
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.50 - 10.175.110.27",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.50 - 10.175.110.27",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228PV5Q0D"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            109.090865,
+            21.032944
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.66.50 - 10.241.70.6",
+        "startNo": "SUB_20230209172452227O05QZH",
+        "description": "10.241.66.50 - 10.241.70.6",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227707B6Z"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.452942,
+            21.258425
+          ],
+          [
+            112.001426,
+            20.735408
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.2 - 10.249.67.4",
+        "startNo": "SUB_20230209172452228PV5Q0D",
+        "description": "10.249.67.2 - 10.249.67.4",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228714HCS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            109.090865,
+            21.032944
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.70.66 - 10.174.26.254",
+        "startNo": "SUB_20230209172452228PV5Q0D",
+        "description": "10.241.70.66 - 10.174.26.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222895VPCJ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            109.090865,
+            21.032944
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.145.252 - 10.174.145.249",
+        "startNo": "SUB_202302091724522286AH02C",
+        "description": "10.174.145.252 - 10.174.145.249",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222881G693"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.100211,
+            19.651924
+          ],
+          [
+            112.188248,
+            19.755552
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.4 - 10.174.20.254",
+        "startNo": "SUB_20230209172452228714HCS",
+        "description": "10.249.67.4 - 10.174.20.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522278JP83S"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.717752,
+            20.786833
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.145.252 - 10.174.145.250",
+        "startNo": "SUB_202302091724522286AH02C",
+        "description": "10.174.145.252 - 10.174.145.250",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522283QR4NK"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.100211,
+            19.651924
+          ],
+          [
+            112.210257,
+            19.776278
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.4 - 10.174.22.254",
+        "startNo": "SUB_20230209172452228714HCS",
+        "description": "10.249.67.4 - 10.174.22.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522271TZ63T"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.145.252 - 10.174.145.251",
+        "startNo": "SUB_202302091724522286AH02C",
+        "description": "10.174.145.252 - 10.174.145.251",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522288H8737"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.100211,
+            19.651924
+          ],
+          [
+            112.276198,
+            19.610674
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.30.250 - 10.174.30.245",
+        "startNo": "SUB_202302091724522276PWTMH",
+        "description": "10.174.30.250 - 10.174.30.245",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222819QNKT"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.871657,
+            20.745892
+          ],
+          [
+            108.893633,
+            20.745906
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.4 - 10.174.26.254",
+        "startNo": "SUB_20230209172452228714HCS",
+        "description": "10.249.67.4 - 10.174.26.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222895VPCJ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.4 - 10.174.30.254",
+        "startNo": "SUB_20230209172452228714HCS",
+        "description": "10.249.67.4 - 10.174.30.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522276PWTMH"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.871657,
+            20.745892
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.221.254 - 10.174.153.252",
+        "startNo": "SUB_20230209172452227Z6O748",
+        "description": "10.174.221.254 - 10.174.153.252",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522272119Z6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.58628,
+            17.548721
+          ],
+          [
+            108.410134,
+            17.59025
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.6.252 - 10.174.6.246",
+        "startNo": "SUB_20230209172452227C5JWW8",
+        "description": "10.174.6.252 - 10.174.6.246",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228OSYBP6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            107.750958,
+            18.614072
+          ],
+          [
+            107.663165,
+            18.614176
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.118 - 10.174.4.254",
+        "startNo": "SUB_202302091724522285JKC7K",
+        "description": "10.175.111.118 - 10.174.4.254",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228LR474Z"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.05629,
+            19.610537
+          ],
+          [
+            112.012448,
+            19.569217
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.4 - 10.174.21.254",
+        "startNo": "SUB_20230209172452228714HCS",
+        "description": "10.249.67.4 - 10.174.21.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227J5X08J"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.717751,
+            20.807376
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.22.254 - 10.174.22.250",
+        "startNo": "SUB_202302091724522271TZ63T",
+        "description": "10.174.22.254 - 10.174.22.250",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228UVB1P0"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.849658,
+            20.848577
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.249.67.4 - 10.174.24.254",
+        "startNo": "SUB_20230209172452228714HCS",
+        "description": "10.249.67.4 - 10.174.24.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522271QX6QF"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.673902,
+            20.663576
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.54 - 10.249.67.4",
+        "startNo": "SUB_202302091724522271TZ63T",
+        "description": "10.175.111.54 - 10.249.67.4",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228714HCS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.89363,
+            20.807545
+          ],
+          [
+            108.89363,
+            20.807545
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.6.252 - 10.174.6.251",
+        "startNo": "SUB_20230209172452227C5JWW8",
+        "description": "10.174.6.252 - 10.174.6.251",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227611S0I"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            107.750958,
+            18.614072
+          ],
+          [
+            107.663165,
+            18.614176
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.6.252 - 10.174.6.247",
+        "startNo": "SUB_20230209172452227C5JWW8",
+        "description": "10.174.6.252 - 10.174.6.247",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228FCI68F"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            107.750958,
+            18.614072
+          ],
+          [
+            107.663165,
+            18.614176
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.6.252 - 10.174.6.245",
+        "startNo": "SUB_20230209172452227C5JWW8",
+        "description": "10.174.6.252 - 10.174.6.245",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222864U37M"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            107.750958,
+            18.614072
+          ],
+          [
+            107.663165,
+            18.614176
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.30.254 - 10.174.31.247",
+        "startNo": "SUB_202302091724522276PWTMH",
+        "description": "10.174.30.254 - 10.174.31.247",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227JY1AQ9"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.871657,
+            20.745892
+          ],
+          [
+            108.739702,
+            20.766272
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.174.6.254 - 10.174.130.254",
+        "startNo": "SUB_20230209172452227C5JWW8",
+        "description": "10.174.6.254 - 10.174.130.254",
+        "type": "光纤",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227B02MMC"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            107.750958,
+            18.614072
+          ],
+          [
+            107.619295,
+            18.489244
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.139.194.229 - 10.139.194.230",
+        "startNo": "SUB_2023020917245222806M8ZS",
+        "description": "10.139.194.229 - 10.139.194.230",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228CW6PP6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.959537,
+            18.384923
+          ],
+          [
+            109.025259,
+            17.506548
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.70.6 - 10.175.111.118",
+        "startNo": "SUB_20230209172452227707B6Z",
+        "description": "10.241.70.6 - 10.175.111.118",
+        "type": "散射",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522285JKC7K"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.001426,
+            20.735408
+          ],
+          [
+            112.05629,
+            19.610537
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.110.27 - 10.175.110.28",
+        "startNo": "SUB_20230209172452228PV5Q0D",
+        "description": "10.175.110.27 - 10.175.110.28",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522276PWTMH"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            109.090865,
+            21.032944
+          ],
+          [
+            108.871657,
+            20.745892
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.111.236 - 10.175.111.237",
+        "startNo": "SUB_202302091724522283QR4NK",
+        "description": "10.175.111.236 - 10.175.111.237",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228OO8SUX"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.210257,
+            19.776278
+          ],
+          [
+            112.385886,
+            19.796807
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.175.110.26 - 10.174.32.250",
+        "startNo": "SUB_202302091724522276PWTMH",
+        "description": "10.175.110.26 - 10.174.32.250",
+        "type": "网线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222819QNKT"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.871657,
+            20.745892
+          ],
+          [
+            108.893633,
+            20.745906
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.242.12.3 - 10.242.12.11",
+        "startNo": "SUB_20230209172452227W4648M",
+        "description": "10.242.12.3 - 10.242.12.11",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227O0UVT3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.630124,
+            19.050935
+          ],
+          [
+            108.723989,
+            18.676969
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.142.72.1 - 10.174.72.254",
+        "startNo": "SUB_20230209172452227V856OD",
+        "description": "10.142.72.1 - 10.174.72.254",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452228DB41KM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.20331388888889,
+            20.055408333333332
+          ],
+          [
+            112.001426,
+            20.735408
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.142.72.1 - 10.142.72.2",
+        "startNo": "SUB_20230209172452227V856OD",
+        "description": "10.142.72.1 - 10.142.72.2",
+        "type": "传统卫星",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227Z6O748"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.20331388888889,
+            20.055408333333332
+          ],
+          [
+            108.58628,
+            17.548721
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.139.194.225 - 10.139.194.229",
+        "startNo": "SUB_202302091724522289ABL5T",
+        "description": "10.139.194.225 - 10.139.194.229",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2023020917245222806M8ZS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            112.001426,
+            20.735408
+          ],
+          [
+            108.959537,
+            18.384923
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.242.12.1 - 10.242.12.3",
+        "startNo": "SUB_20230209172452227V856OD",
+        "description": "10.242.12.1 - 10.242.12.3",
+        "type": "地面专线",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20230209172452227W4648M"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            110.20331388888889,
+            20.055408333333332
+          ],
+          [
+            108.630124,
+            19.050935
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.242.12.11 - 10.242.12.12",
+        "startNo": "SUB_20230209172452227O0UVT3",
+        "description": "10.242.12.11 - 10.242.12.12",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522274FXL0X"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.723989,
+            18.676969
+          ],
+          [
+            108.87175,
+            18.697514
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.242.12.19 - 10.242.12.20",
+        "startNo": "SUB_20230209172452227O0UVT3",
+        "description": "10.242.12.19 - 10.242.12.20",
+        "type": "微波",
+        "region": "南海西部",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202302091724522274FXL0X"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            108.723989,
+            18.676969
+          ],
+          [
+            108.87175,
+            18.697514
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

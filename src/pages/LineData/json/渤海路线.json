@@ -1,0 +1,5185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.38 - 10.132.30.35",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.132.30.38 - 10.132.30.35",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448925Q7565"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.4594872,
+            38.16385534
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.1 - 10.132.30.17",
+        "startNo": "SUB_202004111721448915NVSYH",
+        "description": "10.132.30.1 - 10.132.30.17",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SU3WL5002G1020200411174326880"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.483523,
+            38.119271
+          ],
+          [
+            119.082183,
+            38.864935
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.1 - 10.132.30.20",
+        "startNo": "SUB_202004111721448915NVSYH",
+        "description": "10.132.30.1 - 10.132.30.20",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891170OF5"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.483523,
+            38.119271
+          ],
+          [
+            119.533164,
+            38.119411
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.38 - 10.132.30.43",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.132.30.38 - 10.132.30.43",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448920ASH70"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.725413,
+            38.199223
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.18.254 - 10.31.16.254",
+        "startNo": "SUB_202004111723270998ICF70",
+        "description": "10.31.18.254 - 10.31.16.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270990U0MSR"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.230798,
+            38.257485
+          ],
+          [
+            119.25277,
+            38.294144
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.19.254 - 10.31.21.254",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.31.19.254 - 10.31.21.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144892OHFJJ9"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.516619,
+            38.136656
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.124 - 10.132.9.81",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.124 - 10.132.9.81",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293ENVJ9L"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.104525,
+            38.408102
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.124 - 10.132.9.177",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.124 - 10.132.9.177",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182939LB6B3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.09353,
+            38.358583
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.124 - 10.132.168.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.124 - 10.132.168.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293R9M4XM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.115536,
+            38.373668
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.9.177",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.9.177",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "10.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182939LB6B3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.09353,
+            38.358583
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.168.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.168.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293R9M4XM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.115536,
+            38.373668
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.9.81",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.9.81",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293ENVJ9L"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.104525,
+            38.408102
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.124 - 10.132.174.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.124 - 10.132.174.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293W14010"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.115534,
+            38.386586
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.174.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.174.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293W14010"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.115534,
+            38.386586
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.0.219 - 10.31.0.240",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.31.0.219 - 10.31.0.240",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099763W24"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            117.94959,
+            38.650498
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.0.253 - 10.31.2.190",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.31.0.253 - 10.31.2.190",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099DTW6E3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            117.828677,
+            38.556072
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.0.219 - 10.31.0.243",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.31.0.219 - 10.31.0.243",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099763W24"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            117.94959,
+            38.650498
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.0.223 - 10.31.0.239",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.31.0.223 - 10.31.0.239",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099K0X9Q3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            117.94959,
+            38.650498
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.0.223 - 10.31.0.231",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.31.0.223 - 10.31.0.231",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099K0X9Q3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            117.94959,
+            38.650498
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.0.223 - 10.31.0.230",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.31.0.223 - 10.31.0.230",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099K0X9Q3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            117.94959,
+            38.650498
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.21.252 - 10.31.21.243",
+        "startNo": "SUB_20200411172144892OHFJJ9",
+        "description": "10.31.21.252 - 10.31.21.243",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891A7ZM15"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.516619,
+            38.136656
+          ],
+          [
+            119.515402,
+            38.133793
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.21.252 - 10.31.21.220",
+        "startNo": "SUB_20200411172144892OHFJJ9",
+        "description": "10.31.21.252 - 10.31.21.220",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891A7ZM15"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.516619,
+            38.136656
+          ],
+          [
+            119.515402,
+            38.133793
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.6.171 - 10.132.6.172",
+        "startNo": "SUB_202004111729501378C427D",
+        "description": "10.132.6.171 - 10.132.6.172",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "540",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448920D68OO"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.04392,
+            37.861541
+          ],
+          [
+            119.403355,
+            37.97471644
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.15.20 - 10.132.15.19",
+        "startNo": "SUB_20200411172950137146322",
+        "description": "10.132.15.20 - 10.132.15.19",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270980MA0Q0"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.667725,
+            38.922923
+          ],
+          [
+            117.961756,
+            38.655449
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.9.125",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.9.125",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "4294.00",
+        "sulu": "0",
+        "endNo": "SUMYB59P3N7020201026085624756"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            120.682016,
+            37.783593
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.9.213",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.9.213",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "10.00",
+        "sulu": "0",
+        "endNo": "SUIH1Z2UKF7320201026085546425"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            120.703925,
+            37.974362
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "DL_202012181136278889119SR",
+        "startNo": "SUIH1Z2UKF7320201026085546425",
+        "description": "DL_202012181136278889119SR",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293R9M4XM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.703925,
+            37.974362
+          ],
+          [
+            120.115536,
+            38.373668
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "DL_20201218113627890CZTH90",
+        "startNo": "SUB_202004111729501376F9LZ9",
+        "description": "DL_20201218113627890CZTH90",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111733289244NM2YI"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.912479,
+            38.017846
+          ],
+          [
+            119.060321,
+            38.199068
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.15.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.15.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270994VRP0R"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            118.412081,
+            38.446867
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.21.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.21.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111735022015BJN80"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.212981,
+            39.124674
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.23.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.23.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924L3524J"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.230692,
+            39.118987
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.30.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.30.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144892R0EIUX"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.555194,
+            38.214484
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.31.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.31.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144892OHFJJ9"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.516619,
+            38.136656
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.52.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.52.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2020041117350220169TCJ6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.246055,
+            38.379624
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.86.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.86.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891WE1OT1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.7625602,
+            38.06222842
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.87.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.87.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448920D68OO"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.403355,
+            37.97471644
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.128.29.254 - 10.128.15.1",
+        "startNo": "SUWEU6C7CVT820200903151320750",
+        "description": "10.128.29.254 - 10.128.15.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567M71G78"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.722543,
+            39.093473
+          ],
+          [
+            121.455909,
+            40.665005
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.7.36 - 10.132.7.57",
+        "startNo": "SUB_20200411172950137ATKV6H",
+        "description": "10.132.7.36 - 10.132.7.57",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU3N036Y9C5C20200903150335207"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.917959,
+            38.078415
+          ],
+          [
+            117.725301,
+            38.989007
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.201.254 - 10.132.203.254",
+        "startNo": "SUB_20200411172500918U01X94",
+        "description": "10.132.201.254 - 10.132.203.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111725009187M0Y44"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.670595,
+            38.762543
+          ],
+          [
+            118.703482,
+            38.762486
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.201.254 - 10.132.26.6",
+        "startNo": "SUB_20200411172500918U01X94",
+        "description": "10.132.201.254 - 10.132.26.6",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117250091832Z126"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.670595,
+            38.762543
+          ],
+          [
+            118.719941,
+            38.728209
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.26.9 - 10.132.26.46",
+        "startNo": "SUB_20200411172500918U01X94",
+        "description": "10.132.26.9 - 10.132.26.46",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172500918W4P0HQ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.670595,
+            38.762543
+          ],
+          [
+            118.687045,
+            38.68112
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.26.62 - 10.132.26.56",
+        "startNo": "SUB_202004111725009189J7VRR",
+        "description": "10.132.26.62 - 10.132.26.56",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUBJMY562Z5F20200903182235972"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.835426,
+            38.717605
+          ],
+          [
+            118.895928,
+            38.709101
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.4.147 - 10.132.4.148",
+        "startNo": "SUB_2020041117262856777CA3L",
+        "description": "10.132.4.147 - 10.132.4.148",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628568Q4H4TZ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.2473058,
+            40.53144118
+          ],
+          [
+            121.10433,
+            40.343494
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.4.171 - 10.132.4.172",
+        "startNo": "SUB_202004111726285674XSB51",
+        "description": "10.132.4.171 - 10.132.4.172",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117262856792GGZ6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.060383,
+            40.02664927
+          ],
+          [
+            120.830143,
+            39.970198
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.5.188 - 10.132.5.187",
+        "startNo": "SUB_202004111726285686LAI87",
+        "description": "10.132.5.188 - 10.132.5.187",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SU9320F50US520200905104936843"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.616003,
+            39.79535
+          ],
+          [
+            120.46183,
+            39.48848
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.15.35 - 10.132.15.36",
+        "startNo": "SUB_202004111723270980MA0Q0",
+        "description": "10.132.15.35 - 10.132.15.36",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270994VRP0R"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.961756,
+            38.655449
+          ],
+          [
+            118.412081,
+            38.446867
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "DL_20201218113627890GGF1OP",
+        "startNo": "SUFQ3B8RQHD120201010145331754",
+        "description": "DL_20201218113627890GGF1OP",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUL830O50A3L20201010152009462"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.571707,
+            38.240399
+          ],
+          [
+            119.632135,
+            38.298602
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.7.27 - 10.132.7.28",
+        "startNo": "SUB_202004111723270998ICF70",
+        "description": "10.132.7.27 - 10.132.7.28",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "540",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144892R0EIUX"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.230798,
+            38.257485
+          ],
+          [
+            119.555194,
+            38.214484
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.11.51 - 10.132.11.52",
+        "startNo": "SUB_202004111721448915NVSYH",
+        "description": "10.132.11.51 - 10.132.11.52",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891WE1OT1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.483523,
+            38.119271
+          ],
+          [
+            119.7625602,
+            38.06222842
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "DL_2020121811362788875GJZK",
+        "startNo": "SUB_202004111729501371LHDQH",
+        "description": "DL_2020121811362788875GJZK",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567R6J8NH"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.219985,
+            39.52244
+          ],
+          [
+            120.417786,
+            39.250703
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.7.51 - 10.132.7.52",
+        "startNo": "SUB_202004111723270990U0MSR",
+        "description": "10.132.7.51 - 10.132.7.52",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099VO01Q3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.25277,
+            38.294144
+          ],
+          [
+            119.065761,
+            38.547874
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.17.249 - 10.31.14.253",
+        "startNo": "SUB_20200411172327099VO01Q3",
+        "description": "10.31.17.249 - 10.31.14.253",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUG75F5RPIW120201021133051159"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.065761,
+            38.547874
+          ],
+          [
+            119.0487473,
+            38.45041918
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.7.57 - 10.132.6.171",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.132.7.57 - 10.132.6.171",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111729501378C427D"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            119.04392,
+            37.861541
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.38 - 10.31.19.248",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.132.30.38 - 10.31.19.248",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUFQ3B8RQHD120201010145331754"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.571707,
+            38.240399
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.186.254 - 10.31.21.254",
+        "startNo": "SUB_202004111721448915NVSYH",
+        "description": "10.132.186.254 - 10.31.21.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144892OHFJJ9"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.483523,
+            38.119271
+          ],
+          [
+            119.516619,
+            38.136656
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.4.139 - 10.132.4.140",
+        "startNo": "SUB_20200411172628567M71G78",
+        "description": "10.132.4.139 - 10.132.4.140",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "774",
+        "sulu": "0",
+        "endNo": "SUB_2020041117262856777CA3L"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.455909,
+            40.665005
+          ],
+          [
+            121.2473058,
+            40.53144118
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.152.254 - 10.132.159.254",
+        "startNo": "SU9320F50US520200905104936843",
+        "description": "10.132.152.254 - 10.132.159.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUE90YH262RC20201009144312284"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.46183,
+            39.48848
+          ],
+          [
+            120.4814334,
+            39.34060868
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.166.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.166.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182936VVJYM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.099028,
+            38.369352
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.166.254 - 10.132.168.254",
+        "startNo": "SUB_202004111731182936VVJYM",
+        "description": "10.132.166.254 - 10.132.168.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173118293R9M4XM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099028,
+            38.369352
+          ],
+          [
+            120.115536,
+            38.373668
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.152.254 - 10.132.196.126",
+        "startNo": "SU9320F50US520200905104936843",
+        "description": "10.132.152.254 - 10.132.196.126",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUF228V5H52820201028152244074"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.46183,
+            39.48848
+          ],
+          [
+            120.5222493,
+            39.52232741
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.6.98",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.6.98",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172950137ATKV6H"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            118.917959,
+            38.078415
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.38 - 10.132.30.33",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.132.30.38 - 10.132.30.33",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448913812O1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.549695,
+            38.136734
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.64.252 - 10.31.65.250",
+        "startNo": "SUB_202004111723270994VRP0R",
+        "description": "10.31.64.252 - 10.31.65.250",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117232709966EBVM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.412081,
+            38.446867
+          ],
+          [
+            118.428588,
+            38.446885
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.181.254 - 10.132.182.254",
+        "startNo": "SUB_20200411172144891BQ6R5J",
+        "description": "10.132.181.254 - 10.132.182.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144892N2XRJ1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.626704,
+            37.809757
+          ],
+          [
+            119.549732,
+            37.811912
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.30.38 - 10.132.30.44",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.132.30.38 - 10.132.30.44",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448928CL1S7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.560706,
+            38.166994
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.160.254 - 10.132.6.50",
+        "startNo": "SUB_202004111721448920D68OO",
+        "description": "10.132.160.254 - 10.132.6.50",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891CIJ3FG"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.403355,
+            37.97471644
+          ],
+          [
+            119.516635,
+            38.002569
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.160.254 - 10.132.162.254",
+        "startNo": "SUB_202004111721448920D68OO",
+        "description": "10.132.160.254 - 10.132.162.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891WE1OT1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.403355,
+            37.97471644
+          ],
+          [
+            119.7625602,
+            38.06222842
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.162.254 - 10.132.184.254",
+        "startNo": "SUB_20200411172144891WE1OT1",
+        "description": "10.132.162.254 - 10.132.184.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891GMDAC1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.7625602,
+            38.06222842
+          ],
+          [
+            119.648627,
+            37.996133
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.162.254 - 10.132.163.254",
+        "startNo": "SUB_20200411172144891WE1OT1",
+        "description": "10.132.162.254 - 10.132.163.254",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "10.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448915P1QW8"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.7625602,
+            38.06222842
+          ],
+          [
+            119.725421,
+            38.13011
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.163.254 - 10.132.164.254",
+        "startNo": "SUB_202004111721448915P1QW8",
+        "description": "10.132.163.254 - 10.132.164.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "10.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117214489103J81C"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.725421,
+            38.13011
+          ],
+          [
+            119.824503,
+            38.076157
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.6.3",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.6.3",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUKUBTVMCDR720201103075842875"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            118.516729,
+            38.935693
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.9.215 - 10.132.9.216",
+        "startNo": "SUB_20200411173118293R9M4XM",
+        "description": "10.132.9.215 - 10.132.9.216",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182933N0BWZ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.115536,
+            38.373668
+          ],
+          [
+            120.099026,
+            38.386576
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.124 - 10.132.171.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.124 - 10.132.171.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117311829313O5X1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.14308,
+            38.322008
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.171.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.171.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117311829313O5X1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.14308,
+            38.322008
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.9.182 - 10.132.9.177",
+        "startNo": "SUB_202004111731182948Q30A5",
+        "description": "10.132.9.182 - 10.132.9.177",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "10.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182939LB6B3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.082536,
+            38.362893
+          ],
+          [
+            120.09353,
+            38.358583
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.125 - 10.132.175.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.125 - 10.132.175.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117311829343ZJR7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.119662,
+            38.396277
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.41.124 - 10.132.175.254",
+        "startNo": "SUB_202004111731182933N0BWZ",
+        "description": "10.132.41.124 - 10.132.175.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117311829343ZJR7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.099026,
+            38.386576
+          ],
+          [
+            120.119662,
+            38.396277
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.175.254 - 10.132.176.254",
+        "startNo": "SUB_2020041117311829343ZJR7",
+        "description": "10.132.175.254 - 10.132.176.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182930DT0O5"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.119662,
+            38.396277
+          ],
+          [
+            120.088032,
+            38.362891
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "DL_20201218113627888KQ25WG",
+        "startNo": "SUMYB59P3N7020201026085624756",
+        "description": "DL_20201218113627888KQ25WG",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117311829313O5X1"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.682016,
+            37.783593
+          ],
+          [
+            120.14308,
+            38.322008
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.68.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.68.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411173502201G1076U"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.999103,
+            37.999615
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.58.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.58.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411173502201G1076U"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.999103,
+            37.999615
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.29.29.254 - 10.29.62.1",
+        "startNo": "SUI8F7GPV22M20200903151523418",
+        "description": "10.29.29.254 - 10.29.62.1",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924L3524J"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.906826,
+            39.359447
+          ],
+          [
+            119.230692,
+            39.118987
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.30.30.254 - 10.30.30.211",
+        "startNo": "SU000G1A87SB20200903151717967",
+        "description": "10.30.30.254 - 10.30.30.211",
+        "type": "传统卫星",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_2020041117350220264DTOR"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.832589,
+            39.021108
+          ],
+          [
+            118.856224,
+            38.749069
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.9.123 - 10.132.9.216",
+        "startNo": "SUB_2020041117311829313O5X1",
+        "description": "10.132.9.123 - 10.132.9.216",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182933N0BWZ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.14308,
+            38.322008
+          ],
+          [
+            120.099026,
+            38.386576
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.29.254 - 10.31.24.126",
+        "startNo": "SUB_2020041117332892489Y14F",
+        "description": "10.31.29.254 - 10.31.24.126",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924P6OP15"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.1910352,
+            39.14896531
+          ],
+          [
+            119.203194,
+            39.101923
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.160.254 - 10.132.6.130",
+        "startNo": "SUB_202004111721448920D68OO",
+        "description": "10.132.160.254 - 10.132.6.130",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172144891BQ6R5J"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.403355,
+            37.97471644
+          ],
+          [
+            119.626704,
+            37.809757
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.7.57 - 10.132.15.20",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.132.7.57 - 10.132.15.20",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172950137146322"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            117.667725,
+            38.922923
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.0.108 - 10.132.17.65",
+        "startNo": "SUVONT7XKNA120220507102842001",
+        "description": "10.132.0.108 - 10.132.17.65",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUKWI2489L1D20220507102130323"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.687025,
+            38.845943
+          ],
+          [
+            118.788616,
+            38.850197
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.66 - 10.132.25.67",
+        "startNo": "SUB_20200411172628567M71G78",
+        "description": "10.132.25.66 - 10.132.25.67",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU1Y0QNE693C20220527144026304"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.455909,
+            40.665005
+          ],
+          [
+            121.5489459,
+            40.69829243
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.19.254 - 10.132.17.4",
+        "startNo": "SUB_20200411172144892R0EIUX",
+        "description": "10.31.19.254 - 10.132.17.4",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111721448920ASH70"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.555194,
+            38.214484
+          ],
+          [
+            119.725413,
+            38.199223
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.17.4 - 10.132.17.3",
+        "startNo": "SUB_202004111721448920ASH70",
+        "description": "10.132.17.4 - 10.132.17.3",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "200",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182933N0BWZ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.725413,
+            38.199223
+          ],
+          [
+            120.099026,
+            38.386576
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.8.76 - 10.241.206.35",
+        "startNo": "SUB_202004111729501376F9LZ9",
+        "description": "10.132.8.76 - 10.241.206.35",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "4294.00",
+        "sulu": "0",
+        "endNo": "SU3N036Y9C5C20200903150335207"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.912479,
+            38.017846
+          ],
+          [
+            117.725301,
+            38.989007
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.126 - 10.31.18.254",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.126 - 10.31.18.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270998ICF70"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.230798,
+            38.257485
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.0.1 - 10.127.2.46",
+        "startNo": "SU8UCPAC45PC20210824161457516",
+        "description": "10.127.0.1 - 10.127.2.46",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "300",
+        "sulu": "0",
+        "endNo": "SUI6I3Y1Q4SD20210824162844477"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.15.68 - 10.241.206.35",
+        "startNo": "SUB_20200411172950137K169XJ",
+        "description": "10.132.15.68 - 10.241.206.35",
+        "type": "地面专线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU3N036Y9C5C20200903150335207"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.978074,
+            39.236076
+          ],
+          [
+            117.725301,
+            38.989007
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.9.22 - 10.132.166.254",
+        "startNo": "SUB_202004111731182948Q30A5",
+        "description": "10.132.9.22 - 10.132.166.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182936VVJYM"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.082536,
+            38.362893
+          ],
+          [
+            120.099028,
+            38.369352
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.9.129 - 10.132.41.124",
+        "startNo": "SUO1O5KYWO7820211124145254274",
+        "description": "10.132.9.129 - 10.132.41.124",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182933N0BWZ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.51978,
+            39.212676
+          ],
+          [
+            120.099026,
+            38.386576
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.252 - 10.132.24.253",
+        "startNo": "SUMC187K2S1920220107152558996",
+        "description": "10.132.24.252 - 10.132.24.253",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU8A05Z8T24920220107151307453"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.51978,
+            39.212676
+          ],
+          [
+            120.51978,
+            39.212676
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.6.3 - 10.132.6.4",
+        "startNo": "SUKUBTVMCDR720201103075842875",
+        "description": "10.132.6.3 - 10.132.6.4",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUVONT7XKNA120220507102842001"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.516729,
+            38.935693
+          ],
+          [
+            118.687025,
+            38.845943
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.197 - 10.31.8.200",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.197 - 10.31.8.200",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117332892437939C"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.093227,
+            38.371525
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.197 - 10.31.8.191",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.197 - 10.31.8.191",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924G0I0YA"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.115232,
+            38.218482
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.197 - 10.31.8.198",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.197 - 10.31.8.198",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111733289249816BP"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.049359,
+            38.194768
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.197 - 10.31.8.196",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.197 - 10.31.8.196",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111733289241V6E00"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.098741,
+            38.214155
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.197 - 10.31.8.207",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.197 - 10.31.8.207",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924S6F54O"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.120726,
+            38.26595
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.197 - 10.31.8.194",
+        "startNo": "SUB_202004111733289244NM2YI",
+        "description": "10.31.8.197 - 10.31.8.194",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111733289248CXLQ4"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.060321,
+            38.199068
+          ],
+          [
+            119.126229,
+            38.248701
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.8.194 - 10.31.8.195",
+        "startNo": "SUB_202004111733289248CXLQ4",
+        "description": "10.31.8.194 - 10.31.8.195",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117332892465O6W7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.126229,
+            38.248701
+          ],
+          [
+            119.098738,
+            38.235735
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.8.11 - 10.132.8.12",
+        "startNo": "SUB_20200411172950137V7K1PI",
+        "description": "10.132.8.11 - 10.132.8.12",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924L3524J"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.263612,
+            39.414394
+          ],
+          [
+            119.230692,
+            39.118987
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.7.36 - 10.132.7.35",
+        "startNo": "SUB_20200411172950137ATKV6H",
+        "description": "10.132.7.36 - 10.132.7.35",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "540",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270998ICF70"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.917959,
+            38.078415
+          ],
+          [
+            119.230798,
+            38.257485
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.5.163 - 10.132.5.164",
+        "startNo": "SUE90YH262RC20201009144312284",
+        "description": "10.132.5.163 - 10.132.5.164",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567R6J8NH"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.4814334,
+            39.34060868
+          ],
+          [
+            120.417786,
+            39.250703
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.97 - 10.132.24.104",
+        "startNo": "SUB_2020041117262856792GGZ6",
+        "description": "10.132.24.97 - 10.132.24.104",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUF92NHTSOY620220509102836324"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.830143,
+            39.970198
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.97 - 10.132.24.103",
+        "startNo": "SUB_2020041117262856792GGZ6",
+        "description": "10.132.24.97 - 10.132.24.103",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUF080ANDO1220220509123801946"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.830143,
+            39.970198
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.97 - 10.132.24.100",
+        "startNo": "SUB_2020041117262856792GGZ6",
+        "description": "10.132.24.97 - 10.132.24.100",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SU3EJ2MKM7D920220509134909290"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.830143,
+            39.970198
+          ],
+          [
+            120.888832,
+            39.99341735
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.101 - 10.132.24.236",
+        "startNo": "SU3EJ2MKM7D920220509134909290",
+        "description": "10.132.24.101 - 10.132.24.236",
+        "type": "网线",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUEXAXW15JV020220509165347315"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.888832,
+            39.99341735
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.235 - 10.132.24.233",
+        "startNo": "SUEXAXW15JV020220509165347315",
+        "description": "10.132.24.235 - 10.132.24.233",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU679SX9XQWY20220509171656377"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.2 - 10.132.25.6",
+        "startNo": "SUB_202004111726285674XSB51",
+        "description": "10.132.25.2 - 10.132.25.6",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU59LT8Y086S20220512080052320"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.060383,
+            40.02664927
+          ],
+          [
+            121.1276567,
+            40.02932757
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.150.254 - 10.132.149.254",
+        "startNo": "SUB_2020041117262856792GGZ6",
+        "description": "10.132.150.254 - 10.132.149.254",
+        "type": "散射",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285670695WS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.830143,
+            39.970198
+          ],
+          [
+            120.802614,
+            39.953307
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.149.254 - 10.132.144.254",
+        "startNo": "SUB_202004111726285670695WS",
+        "description": "10.132.149.254 - 10.132.144.254",
+        "type": "散射",
+        "region": "渤海",
+        "daikuan": "10.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567301K61"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.802614,
+            39.953307
+          ],
+          [
+            120.80812,
+            39.957527
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.248 - 10.132.25.253",
+        "startNo": "SUB_20200411172628567M71G78",
+        "description": "10.132.25.248 - 10.132.25.253",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567545QO2"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.455909,
+            40.665005
+          ],
+          [
+            121.4504,
+            40.656664
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.253 - 10.132.25.250",
+        "startNo": "SUB_20200411172628567545QO2",
+        "description": "10.132.25.253 - 10.132.25.250",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU470FO34X1T20220527143509184"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.4504,
+            40.656664
+          ],
+          [
+            121.4950442,
+            40.72406747
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.249 - 10.132.25.247",
+        "startNo": "SU470FO34X1T20220527143509184",
+        "description": "10.132.25.249 - 10.132.25.247",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUM6MCE6793620220527145254497"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.4950442,
+            40.72406747
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.154.254 - 10.132.195.254",
+        "startNo": "SUB_20200411172628568Q4H4TZ",
+        "description": "10.132.154.254 - 10.132.195.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "4294.00",
+        "sulu": "0",
+        "endNo": "SUYL0T401AER20211203105247693"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.10433,
+            40.343494
+          ],
+          [
+            120.51978,
+            39.212676
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.21 - 10.132.25.22",
+        "startNo": "SUB_20200411172628568Q4H4TZ",
+        "description": "10.132.25.21 - 10.132.25.22",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU7GAD5FV16C20220530104253058"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.10433,
+            40.343494
+          ],
+          [
+            121.0591214,
+            40.36489365
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.154.254 - 10.132.155.254",
+        "startNo": "SUB_20200411172628568Q4H4TZ",
+        "description": "10.132.154.254 - 10.132.155.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117262856882Y625"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.10433,
+            40.343494
+          ],
+          [
+            121.016624,
+            40.232601
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.155.254 - 10.132.153.254",
+        "startNo": "SUB_2020041117262856882Y625",
+        "description": "10.132.155.254 - 10.132.153.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285674XSB51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.016624,
+            40.232601
+          ],
+          [
+            121.060383,
+            40.02664927
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.35 - 10.132.25.41",
+        "startNo": "SUB_2020041117262856882Y625",
+        "description": "10.132.25.35 - 10.132.25.41",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU8D8NRAW4IJ20220530135814118"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.016624,
+            40.232601
+          ],
+          [
+            121.023879,
+            40.243638
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.155.254 - 10.132.197.254",
+        "startNo": "SUB_2020041117262856882Y625",
+        "description": "10.132.155.254 - 10.132.197.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285679FNGHF"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.016624,
+            40.232601
+          ],
+          [
+            121.1138888888889,
+            40.42333333333333
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.155 - 10.132.24.147",
+        "startNo": "SUB_202004111726285679FNGHF",
+        "description": "10.132.24.155 - 10.132.24.147",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117262856742H6VK"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.1138888888889,
+            40.42333333333333
+          ],
+          [
+            121.12833333333333,
+            40.403333333333336
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.155 - 10.132.24.151",
+        "startNo": "SUB_202004111726285679FNGHF",
+        "description": "10.132.24.155 - 10.132.24.151",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285673NP4JD"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.1138888888889,
+            40.42333333333333
+          ],
+          [
+            121.078888,
+            40.281944
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.155 - 10.132.24.148",
+        "startNo": "SUB_202004111726285679FNGHF",
+        "description": "10.132.24.155 - 10.132.24.148",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567551505"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.1138888888889,
+            40.42333333333333
+          ],
+          [
+            121.09138888888889,
+            40.43444444444444
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.148.254 - 10.132.141.254",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.148.254 - 10.132.141.254",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU8A05Z8T24920220107151307453"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.51978,
+            39.212676
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.148.254 - 10.132.144.254",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.148.254 - 10.132.144.254",
+        "type": "散射",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567301K61"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.80812,
+            39.957527
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.148.254 - 10.132.145.254",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.148.254 - 10.132.145.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285682C9T53"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.712316,
+            39.95170889
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.145.254 - 10.132.146.254",
+        "startNo": "SUB_202004111726285682C9T53",
+        "description": "10.132.145.254 - 10.132.146.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285674Y2IZ3"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.712316,
+            39.95170889
+          ],
+          [
+            120.786106,
+            39.919588
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.34 - 10.132.24.35",
+        "startNo": "SUB_202004111726285682C9T53",
+        "description": "10.132.24.34 - 10.132.24.35",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU0Q36HY460620220531103055570"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.712316,
+            39.95170889
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.24.50 - 10.132.24.55",
+        "startNo": "SUB_202004111726285674Y2IZ3",
+        "description": "10.132.24.50 - 10.132.24.55",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUCEI9VJY2YL20220531104840541"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.786106,
+            39.919588
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.148.254 - 10.132.147.254",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.148.254 - 10.132.147.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285686LAI87"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.616003,
+            39.79535
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.175.254 - 10.132.177.254",
+        "startNo": "SUB_2020041117311829343ZJR7",
+        "description": "10.132.175.254 - 10.132.177.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182939K50P8"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.119662,
+            38.396277
+          ],
+          [
+            120.110031,
+            38.37797
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.175.254 - 10.132.176.254",
+        "startNo": "SUB_2020041117311829343ZJR7",
+        "description": "10.132.175.254 - 10.132.176.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111731182930DT0O5"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.119662,
+            38.396277
+          ],
+          [
+            120.088032,
+            38.362891
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.17.35 - 10.132.17.36",
+        "startNo": "SUKWI2489L1D20220507102130323",
+        "description": "10.132.17.35 - 10.132.17.36",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270994VRP0R"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.788616,
+            38.850197
+          ],
+          [
+            118.412081,
+            38.446867
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.148.254 - 10.132.150.254",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.148.254 - 10.132.150.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117262856792GGZ6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.830143,
+            39.970198
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.162.254 - 10.132.164.254",
+        "startNo": "SUB_20200411172144891WE1OT1",
+        "description": "10.132.162.254 - 10.132.164.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117214489103J81C"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.7625602,
+            38.06222842
+          ],
+          [
+            119.824503,
+            38.076157
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.148.254 - 10.132.24.18",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.148.254 - 10.132.24.18",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567301K61"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.80812,
+            39.957527
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.144.254 - 10.132.149.254",
+        "startNo": "SUB_20200411172628567301K61",
+        "description": "10.132.144.254 - 10.132.149.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111726285670695WS"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.80812,
+            39.957527
+          ],
+          [
+            120.802614,
+            39.953307
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.149.254 - 10.132.150.254",
+        "startNo": "SUB_202004111726285670695WS",
+        "description": "10.132.149.254 - 10.132.150.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117262856792GGZ6"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.802614,
+            39.953307
+          ],
+          [
+            120.830143,
+            39.970198
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.25.225 - 10.132.25.230",
+        "startNo": "SUB_20200411172144891GMDAC1",
+        "description": "10.132.25.225 - 10.132.25.230",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU01QM9K442520230110123622378"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.648627,
+            37.996133
+          ],
+          [
+            119.6985719,
+            38.00737115
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.39.254 - 10.132.215.254",
+        "startNo": "SUB_20200411172327099IO91ZJ",
+        "description": "10.31.39.254 - 10.132.215.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU4NN83Y2WD420230116091314055"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.9055887,
+            39.08109394
+          ],
+          [
+            118.9055887,
+            39.08109394
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.17.51 - 10.132.17.52",
+        "startNo": "SU8N1SL1V4MP20210824162445527",
+        "description": "10.132.17.51 - 10.132.17.52",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099IO91ZJ"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            118.9055887,
+            39.08109394
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.195.1 - 10.30.30.254",
+        "startNo": "SU7F2229B1BR20210127085227387",
+        "description": "10.241.195.1 - 10.30.30.254",
+        "type": "网线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU000G1A87SB20200903151717967"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.29105,
+            39.333719
+          ],
+          [
+            117.832589,
+            39.021108
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.195.1 - 10.128.29.254",
+        "startNo": "SU7F2229B1BR20210127085227387",
+        "description": "10.241.195.1 - 10.128.29.254",
+        "type": "网线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUWEU6C7CVT820200903151320750"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.29105,
+            39.333719
+          ],
+          [
+            117.722543,
+            39.093473
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.195.1 - 10.29.29.254",
+        "startNo": "SU7F2229B1BR20210127085227387",
+        "description": "10.241.195.1 - 10.29.29.254",
+        "type": "网线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUI8F7GPV22M20200903151523418"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.29105,
+            39.333719
+          ],
+          [
+            117.906826,
+            39.359447
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.195.1 - 10.241.206.35",
+        "startNo": "SU7F2229B1BR20210127085227387",
+        "description": "10.241.195.1 - 10.241.206.35",
+        "type": "网线",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU3N036Y9C5C20200903150335207"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.29105,
+            39.333719
+          ],
+          [
+            117.725301,
+            38.989007
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.5.100",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.5.100",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB8IO6PDM6320201026100717810"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            121.516532,
+            40.951829
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.5.157",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.5.157",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SUB_202004111729501371LHDQH"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            121.219985,
+            39.52244
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.241.206.35 - 10.132.4.53",
+        "startNo": "SU3N036Y9C5C20200903150335207",
+        "description": "10.241.206.35 - 10.132.4.53",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "0",
+        "sulu": "0",
+        "endNo": "SU77270I32T020201026100659391"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            117.725301,
+            38.989007
+          ],
+          [
+            120.450712,
+            40.247231
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.81.240 - 10.31.81.241",
+        "startNo": "SUB_20200411172327099I96I04",
+        "description": "10.31.81.240 - 10.31.81.241",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "100.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924B84KS7"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.362339,
+            39.150762
+          ],
+          [
+            119.328097,
+            38.956317
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.39.254 - 10.31.40.254",
+        "startNo": "SUB_20200411172327099IO91ZJ",
+        "description": "10.31.39.254 - 10.31.40.254",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111723270990XBYVD"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.9055887,
+            39.08109394
+          ],
+          [
+            118.8719347,
+            39.0662861
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.4.52 - 10.132.4.53",
+        "startNo": "SUB_202004111726285676N2DIA",
+        "description": "10.132.4.52 - 10.132.4.53",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "204800.0",
+        "sulu": "0",
+        "endNo": "SU77270I32T020201026100659391"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.7768229,
+            39.97723074
+          ],
+          [
+            120.450712,
+            40.247231
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.127.162.254",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.127.162.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117332892432T011"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.186683,
+            39.084855
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.31.27.254",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.31.27.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU1C7601Y1S720210824162526634"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.2094875,
+            39.13425216
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.31.26.254",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.31.26.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU8N1SL1V4MP20210824162445527"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.127.163.126",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.127.163.126",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924053I8L"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.170163,
+            39.101868
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.31.28.254",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.31.28.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUZ9VDD56SKK20210824162542555"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.3099073,
+            39.13174347
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.127.32.110",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.127.32.110",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111733289241J9068"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.219698,
+            39.101941
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.127.0.68",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.127.0.68",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUN1ZLO8144B20210824162605465"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.2768615,
+            39.13723026
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.127.5.110",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.127.5.110",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117332892489Y14F"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.1910352,
+            39.14896531
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.31.28.126",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.31.28.126",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924G6HJ0C"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.219694,
+            39.136015
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.46 - 10.127.0.18",
+        "startNo": "SUI6I3Y1Q4SD20210824162844477",
+        "description": "10.127.2.46 - 10.127.0.18",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "300",
+        "sulu": "0",
+        "endNo": "SUB_20200411172500918U01X94"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            118.670595,
+            38.762543
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.127.0.18",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.127.0.18",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "300",
+        "sulu": "0",
+        "endNo": "SUB_20200411172500918U01X94"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            118.670595,
+            38.762543
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.127.162.254",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.127.162.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117332892432T011"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.186683,
+            39.084855
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.31.27.254",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.31.27.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU1C7601Y1S720210824162526634"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.2094875,
+            39.13425216
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.31.26.254",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.31.26.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU8N1SL1V4MP20210824162445527"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.127.163.126",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.127.163.126",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924053I8L"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.170163,
+            39.101868
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.31.28.254",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.31.28.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUZ9VDD56SKK20210824162542555"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.3099073,
+            39.13174347
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.127.32.110",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.127.32.110",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111733289241J9068"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.219698,
+            39.101941
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.127.0.68",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.127.0.68",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUN1ZLO8144B20210824162605465"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.2768615,
+            39.13723026
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.127.5.110",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.127.5.110",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_2020041117332892489Y14F"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.1910352,
+            39.14896531
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.2.30 - 10.31.28.126",
+        "startNo": "SU75U4G2S20520211104122842956",
+        "description": "10.127.2.30 - 10.31.28.126",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411173328924G6HJ0C"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            119.219694,
+            39.136015
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.127.0.1 - 10.127.2.30",
+        "startNo": "SU8UCPAC45PC20210824161457516",
+        "description": "10.127.0.1 - 10.127.2.30",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "300",
+        "sulu": "0",
+        "endNo": "SU75U4G2S20520211104122842956"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            120.147893,
+            38.39255
+          ],
+          [
+            120.147893,
+            38.39255
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.31.27.250 - 10.31.27.246",
+        "startNo": "SU1C7601Y1S720210824162526634",
+        "description": "10.31.27.250 - 10.31.27.246",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUV26R2JHR2720210918135018934"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            119.2094875,
+            39.13425216
+          ],
+          [
+            119.2094875,
+            39.13425216
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.201.254 - 10.132.210.254",
+        "startNo": "SUB_20200411172500918U01X94",
+        "description": "10.132.201.254 - 10.132.210.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SU1105844W5P20200813174205326"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.670595,
+            38.762543
+          ],
+          [
+            118.615769,
+            38.801151
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.210.254 - 10.132.209.254",
+        "startNo": "SU1105844W5P20200813174205326",
+        "description": "10.132.210.254 - 10.132.209.254",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUAKBY9GK4FA20200903164422284"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.615769,
+            38.801151
+          ],
+          [
+            118.840929,
+            38.730465
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.209.254 - 10.132.26.62",
+        "startNo": "SUAKBY9GK4FA20200903164422284",
+        "description": "10.132.209.254 - 10.132.26.62",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111725009189J7VRR"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.840929,
+            38.730465
+          ],
+          [
+            118.835426,
+            38.717605
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.201.254 - 10.132.26.62",
+        "startNo": "SUB_20200411172500918U01X94",
+        "description": "10.132.201.254 - 10.132.26.62",
+        "type": "光纤",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_202004111725009189J7VRR"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.670595,
+            38.762543
+          ],
+          [
+            118.835426,
+            38.717605
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.15.68 - 10.132.15.67",
+        "startNo": "SUB_20200411172950137K169XJ",
+        "description": "10.132.15.68 - 10.132.15.67",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "1000.00",
+        "sulu": "0",
+        "endNo": "SUB_20200411172327099I96I04"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            118.978074,
+            39.236076
+          ],
+          [
+            119.362339,
+            39.150762
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shanghang": "0",
+        "xiahang": "0",
+        "name": "10.132.5.100 - 10.132.5.99",
+        "startNo": "SUB8IO6PDM6320201026100717810",
+        "description": "10.132.5.100 - 10.132.5.99",
+        "type": "微波",
+        "region": "渤海",
+        "daikuan": "774",
+        "sulu": "0",
+        "endNo": "SUB_20200411172628567M71G78"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            121.516532,
+            40.951829
+          ],
+          [
+            121.455909,
+            40.665005
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

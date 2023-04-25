@@ -108,6 +108,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: 'LineData 示例',
+      path: '/lineData',
+      component: './LineData',
+      layout: false,
+    },
+    {
       name: 'Svg 示例',
       path: '/svg',
       component: './Svg',
