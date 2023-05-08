@@ -20,6 +20,7 @@
     "@ant-design/pro-components": "^2.0.1",
     "@tweenjs/tween.js": "^19.0.0",
     "@umijs/max": "^4.0.64",
+    "ahooks": "^3.7.7",
     "antd": "^5.0.0",
     "three": "^0.151.2",
     "three.meshline": "^1.4.0"

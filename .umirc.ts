@@ -54,6 +54,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' Earth 示例',
+      path: '/earth',
+      component: './Earth',
+      layout: false,
+    },
+    {
       name: ' Bloom 示例',
       path: '/bloom',
       component: './Bloom',
