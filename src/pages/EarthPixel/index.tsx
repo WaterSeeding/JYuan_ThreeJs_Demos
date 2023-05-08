@@ -23,16 +23,17 @@ const Earth = () => {
     renderer.shadowMap.enabled = true;
     renderer.toneMapping = THREE.CineonToneMapping;
 
-    const scene = new THREE.Scene();
-    const axesHelper = new THREE.AxesHelper(500);
-    scene.add(axesHelper);
+    var scene = new THREE.Scene();
+    scene.background = new THREE.Color('gainsboro');
 
-    const frustumSize = 45;
-    const aspect = window.innerWidth / window.innerHeight;
-    const camera = new THREE.PerspectiveCamera(frustumSize, aspect, 1, 10000);
-    camera.position.set(0, 2000, 0);
-    camera.lookAt(0, 0, 0);
-    camera.updateProjectionMatrix();
+    var camera = new THREE.PerspectiveCamera(
+      30,
+      innerWidth / innerHeight,
+      1,
+      5000,
+    );
+    camera.position.set(0, 100, 700);
+    camera.lookAt(scene.position);
 
     const earth = new THREE.Group();
     let controls: null | OrbitControls = null;
@@ -72,93 +73,30 @@ const Earth = () => {
 
     const textLoader = new THREE.TextureLoader();
 
-    const heightMap = textLoader.load(
-      require('./images/map.png'),
+    const earthMap = textLoader.load(
+      require('./images/earth_specular_2048.jpg'),
       (texture) => {
         let canvas = document.createElement('canvas');
         canvas.width = texture.image.width;
         canvas.height = texture.image.height;
-        console.log('canvas', canvas);
 
         heightMapContextRef.current = canvas.getContext('2d');
         heightMapContextRef.current.drawImage(texture.image, 0, 0);
       },
     );
-    heightMap.wrapS = THREE.RepeatWrapping;
-    heightMap.wrapT = THREE.RepeatWrapping;
-    heightMap.anisotropy = 16;
-
-    const textureMap = textLoader.load(
-      require('./images/earth_atmos_4096.jpg'),
-    );
-    textureMap.wrapS = THREE.RepeatWrapping;
-    textureMap.wrapT = THREE.RepeatWrapping;
-    textureMap.anisotropy = 16;
-
-    textureMap.wrapS = THREE.RepeatWrapping;
-    textureMap.wrapT = THREE.RepeatWrapping;
-    textureMap.anisotropy = 16;
-
-    const planeMaterial = new THREE.ShaderMaterial({
-      uniforms: {
-        bumpTexture: { value: heightMap },
-        bumpScale: { value: 20 },
-        terrainTexture: { value: textureMap },
-      },
-      vertexShader: `
-      // Uniforms类型常量作为着色器之间共享的数据内容
-      // 这些数据内容在整个帧中都是一致的
-
-      // 高度贴图图像的uniform类型常量
-      uniform sampler2D bumpTexture;
-      // 缩放常量的uniform类型常量
-      uniform float bumpScale;
-
-      // Varyings类型变量作为顶点着色器中确定的值
-
-      // 用于存储点高度的varying类型变量
-      varying float vAmount;
-      varying vec2 vUV;
-
-      void main() {
-        // UV映射表示中的“坐标”
-        vUV = uv;
-
-        // 这些坐标处的高度图数据
-        vec4 bumpData = texture2D(bumpTexture, uv);
-
-        // 高度贴图是灰度的，所以使用r、g或b都无关紧要
-        vAmount = bumpData.r;
-
-        // 沿着法线移动位置
-        vec3 newPosition = position + normal * bumpScale * vAmount;
-
-        // 使用标准公式计算顶点的位置
-        gl_Position = projectionMatrix * modelViewMatrix * vec4(newPosition, 1.0);
-      }
-      `,
-      fragmentShader: `
-      uniform sampler2D terrainTexture;
-
-      // 从顶点着色器获取varying类型数据
-      varying vec2 vUV;
-
-      void main() {
-        // 从纹理贴图中获取片段的颜色，设置到UV贴图中的那个坐标处
-        gl_FragColor = texture2D(terrainTexture, vUV);
-      }
-      `,
-      side: THREE.FrontSide,
-    });
 
     const planet = new THREE.Mesh(
       new THREE.PlaneGeometry(2048, 1024, 256, 256),
-      planeMaterial,
+      new THREE.MeshPhongMaterial({
+        shininess: 0,
+        map: earthMap,
+        displacementMap: earthMap,
+        displacementScale: -50,
+        side: THREE.DoubleSide,
+      }),
     );
-
-    // planet.position.setZ(20);
     earth.add(planet);
-    earth.rotateX(-Math.PI / 2);
+    earth.rotation.x = -Math.PI / 2;
     scene.add(earth);
 
     const animate = () => {
@@ -195,10 +133,12 @@ const Earth = () => {
       // get pixel color
       var pixel = context.getImageData(x, z, 1, 1);
       y = pixel.data[0]; // use the red component
-      ty = THREE.MathUtils.mapLinear(y, 0, 252, 0, 20);
+      ty = THREE.MathUtils.mapLinear(y, 0, 252, 0, 50);
 
       // create a dot
       var dot = new THREE.Mesh(dotGeometry, dotMaterial);
+      ty = Number(parseInt(ty + '')) - 50;
+      console.log('ty', ty);
       dot.position.set(tx, ty, tz);
 
       group.add(dot);
