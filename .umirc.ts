@@ -66,6 +66,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' EarthVector 示例',
+      path: '/earthVector',
+      component: './EarthVector',
+      layout: false,
+    },
+    {
       name: ' Bloom 示例',
       path: '/bloom',
       component: './Bloom',
