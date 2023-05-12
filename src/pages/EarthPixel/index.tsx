@@ -43,7 +43,7 @@ const Earth = () => {
     controls.enableDamping = true;
     controls.enableRotate = true;
     controls.enablePan = true;
-    controls.maxPolarAngle = 1.5;
+    // controls.maxPolarAngle = 1.5;
 
     window.addEventListener(
       'resize',
@@ -74,7 +74,7 @@ const Earth = () => {
     const textLoader = new THREE.TextureLoader();
 
     const earthMap = textLoader.load(
-      require('./images/earth_specular_2048.jpg'),
+      require('./zhonghaiyou/chinahaiyu_gaocheng.png'),
       (texture) => {
         let canvas = document.createElement('canvas');
         canvas.width = texture.image.width;
@@ -86,15 +86,18 @@ const Earth = () => {
     );
 
     const planet = new THREE.Mesh(
-      new THREE.PlaneGeometry(2048, 1024, 256, 256),
+      new THREE.PlaneGeometry(2048, 2048, 256, 256),
       new THREE.MeshPhongMaterial({
         shininess: 0,
         map: earthMap,
         displacementMap: earthMap,
-        displacementScale: -50,
+        displacementScale: 50,
         side: THREE.DoubleSide,
       }),
     );
+
+    
+
     earth.add(planet);
     earth.rotation.x = -Math.PI / 2;
     scene.add(earth);
@@ -116,29 +119,36 @@ const Earth = () => {
   ) => {
     if (!context) return;
     setHeightMapPoint(true);
-    let dotGeometry = new THREE.BoxGeometry(8, 2, 8),
+    let dotGeometry = new THREE.BoxGeometry(4, 1, 4),
       dotMaterial = new THREE.MeshLambertMaterial({ color: 'crimson' });
 
+    console.log('context', context);
     for (var i = 0; i < 1000; i++) {
       // random Three.js coordinates
-      var tx = THREE.MathUtils.randFloat(-1024, 1024),
+      // var tx = -1024,
+      //   ty = 0,
+      //   tz = -1024;
+      let tx = THREE.MathUtils.randFloat(-1024, 1024),
         ty = 0,
-        tz = THREE.MathUtils.randFloat(-512, 512);
+        tz = THREE.MathUtils.randFloat(-1024, 1024);
 
       // convert to pixel coordinates
-      var x = Math.round(tx / 2 + 512),
+      var x = Math.round(
+          ((tx / 1024) * context.canvas.width) / 2 + context.canvas.width / 2,
+        ),
         y = 0,
-        z = Math.round(tz / 2 + 256);
+        z = Math.round(
+          ((tz / 1024) * context.canvas.height) / 2 + context.canvas.height / 2,
+        );
 
       // get pixel color
       var pixel = context.getImageData(x, z, 1, 1);
       y = pixel.data[0]; // use the red component
-      ty = THREE.MathUtils.mapLinear(y, 0, 252, 0, 50);
+      ty = THREE.MathUtils.mapLinear(y, 0, 255, 0, 50);
 
       // create a dot
       var dot = new THREE.Mesh(dotGeometry, dotMaterial);
-      ty = Number(parseInt(ty + '')) - 50;
-      console.log('ty', ty);
+      // ty = Number(parseInt(ty + '')) - 50;
       dot.position.set(tx, ty, tz);
 
       group.add(dot);

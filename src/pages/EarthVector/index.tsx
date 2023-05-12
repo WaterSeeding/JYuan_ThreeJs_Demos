@@ -181,56 +181,10 @@ const Earth = () => {
     if (!context) return;
     setHeightMapPoint(true);
 
-    let model = await loadModel();
-    setModel(scene, model, context);
+    // let model = await loadModel();
+    // setModel(scene, model, context);
 
-    // const amount = parseInt(window.location.search.slice(1)) || 10;
-    // const count = Math.pow(amount, 3);
-    // const dummy = new THREE.Object3D();
-
-    // let instancedMeshArr: any[] = [];
-
-    // let pointSvg: any = await setSvg('./svg/weibojizhan.svg');
-    // pointSvg.group.traverse((object3D: any) => {
-    //   if (object3D instanceof THREE.Mesh) {
-    //     let mesh = new THREE.InstancedMesh(
-    //       object3D.geometry,
-    //       object3D.material,
-    //       count,
-    //     );
-    //     mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage); // will be updated every frame
-
-    //     mesh.instanceMatrix.needsUpdate = true;
-    //     mesh.computeBoundingSphere();
-
-    //     scene.add(mesh);
-    //     instancedMeshArr.push(mesh);
-    //   }
-    // });
-
-    // for (let i = 0; i < 1000; i++) {
-    //   // random Three.js coordinates
-    //   let tx = THREE.MathUtils.randFloat(-1024, 1024),
-    //     ty = 0,
-    //     tz = THREE.MathUtils.randFloat(-512, 512);
-
-    //   // convert to pixel coordinates
-    //   let x = Math.round(tx + 512 * 2),
-    //     y = 0,
-    //     z = Math.round(tz + 256 * 2);
-
-    //   // get pixel color
-    //   let pixel = context.getImageData(x, z, 1, 1);
-    //   y = pixel.data[0]; // use the red component
-    //   ty = THREE.MathUtils.mapLinear(y, 0, 252, 20, 0);
-
-    //   dummy.position.set(tx, ty + 2, tz);
-    //   dummy.updateMatrix();
-
-    //   console.log("instancedMeshArr[0]", instancedMeshArr);
-
-    //   // instancedMeshArr[0].setMatrixAt(i++, dummy.matrix);
-    // }
+    setSvgModel(scene, context);
   };
 
   const loadModel = () => {
@@ -269,6 +223,36 @@ const Earth = () => {
     mesh.computeBoundingSphere();
     group.add(mesh);
     instancedMeshArr.push(mesh);
+
+    traversalInstancedMesh(count, context, instancedMeshArr);
+  };
+
+  const setSvgModel = async (
+    scene: THREE.Scene,
+    context: CanvasRenderingContext2D,
+  ) => {
+    const amount = parseInt(window.location.search.slice(1)) || 10;
+    const count = Math.pow(amount, 3);
+
+    let instancedMeshArr: any[] = [];
+
+    let pointSvg: any = await setSvg('./svg/weibojizhan.svg');
+    pointSvg.group.traverse((object3D: any) => {
+      if (object3D instanceof THREE.Mesh) {
+        let mesh = new THREE.InstancedMesh(
+          object3D.geometry,
+          object3D.material,
+          count,
+        );
+        mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+        mesh.instanceMatrix.needsUpdate = true;
+        // @ts-ignore;
+        mesh.computeBoundingSphere();
+
+        scene.add(mesh);
+        instancedMeshArr.push(mesh);
+      }
+    });
 
     traversalInstancedMesh(count, context, instancedMeshArr);
   };

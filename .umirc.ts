@@ -132,6 +132,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: 'LineCurve 示例',
+      path: '/lineCurve',
+      component: './LineCurve',
+      layout: false,
+    },
+    {
       name: 'Svg 示例',
       path: '/svg',
       component: './Svg',
