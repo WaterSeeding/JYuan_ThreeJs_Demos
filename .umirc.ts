@@ -60,6 +60,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' EarthDemo 示例',
+      path: '/earthDemo',
+      component: './EarthDemo',
+      layout: false,
+    },
+    {
       name: ' EarthPixel 示例',
       path: '/earthPixel',
       component: './EarthPixel',
@@ -75,6 +81,12 @@ export default defineConfig({
       name: ' Bloom 示例',
       path: '/bloom',
       component: './Bloom',
+      layout: false,
+    },
+    {
+      name: ' BloomDemo 示例',
+      path: '/bloomDemo',
+      component: './BloomDemo',
       layout: false,
     },
     {
