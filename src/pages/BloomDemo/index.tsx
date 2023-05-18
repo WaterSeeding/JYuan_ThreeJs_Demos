@@ -47,7 +47,7 @@ const Earth = () => {
 
     // texture
     new THREE.TextureLoader().load(
-      'https://threejs.org/examples/textures/hardwood2_diffuse.jpg',
+      require('./img/hardwood2_diffuse.jpg'),
       (tex) => {
         let img = tex.image;
 

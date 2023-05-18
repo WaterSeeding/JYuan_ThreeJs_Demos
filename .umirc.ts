@@ -155,6 +155,12 @@ export default defineConfig({
       component: './Svg',
       layout: false,
     },
+    {
+      name: 'TexturePartialUpdate 示例',
+      path: '/texturePartialUpdate',
+      component: './TexturePartialUpdate',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
