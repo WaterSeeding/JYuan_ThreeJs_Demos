@@ -161,6 +161,12 @@ export default defineConfig({
       component: './TexturePartialUpdate',
       layout: false,
     },
+    {
+      name: 'EarthPartialUpdate 示例',
+      path: '/earthPartialUpdate',
+      component: './EarthPartialUpdate',
+      layout: false,
+    },
   ],
   npmClient: 'pnpm',
 });
