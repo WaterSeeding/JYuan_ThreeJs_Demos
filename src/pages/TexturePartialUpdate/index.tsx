@@ -47,7 +47,7 @@ const Earth = () => {
       camera.position.z = 2;
 
       const loader = new THREE.TextureLoader();
-      diffuseMap = loader.load(require('./images/earth_basic.jpeg'), () => {
+      diffuseMap = loader.load('./img/earth/earth_basic.jpeg', () => {
         const width = 32 * 4;
         const height = 32 * 4;
 

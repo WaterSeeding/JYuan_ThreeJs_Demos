@@ -26,6 +26,33 @@ export const setDataTexture = (
 ) => {
   let dataTextureW = dataTexture.image.width;
   let dataTextureH = dataTexture.image.height;
+
+  let diffuseMapW = diffuseMap.image.width;
+  let diffuseMapH = diffuseMap.image.height;
+
+  let wRate = diffuseMapW / dataTextureW;
+  let hRate = diffuseMapH / dataTextureH;
+
+  for (let i = 1; i <= wRate; i++) {
+    position.x = dataTextureW * i - dataTextureW;
+    for (let j = 1; j <= hRate; j++) {
+      position.y = dataTextureH * j - dataTextureH;
+      color.setHex(0xff0000);
+      updateDataTexture(dataTexture, color);
+      renderer.copyTextureToTexture(position, dataTexture, diffuseMap);
+    }
+  }
+};
+
+export const setSpriteTexture = (
+  renderer: THREE.WebGLRenderer,
+  position: THREE.Vector2,
+  color: THREE.Color,
+  dataTexture: THREE.Texture,
+  diffuseMap: THREE.Texture,
+) => {
+  let dataTextureW = dataTexture.image.width;
+  let dataTextureH = dataTexture.image.height;
   console.log('[dataTextureW, dataTextureH]', dataTextureW, dataTextureH);
 
   let diffuseMapW = diffuseMap.image.width;
@@ -35,52 +62,26 @@ export const setDataTexture = (
   let wRate = diffuseMapW / dataTextureW;
   let hRate = diffuseMapH / dataTextureH;
 
-  console.log('[wRate, hRate]', wRate, hRate);
-
-  // const loader = new THREE.TextureLoader();
-  // loader.load(require('./images/sprite.jpg'), (spriteMap: THREE.Texture) => {
-  //   spriteMap.colorSpace = THREE.SRGBColorSpace;
-  //   spriteMap.minFilter = THREE.LinearFilter;
-  //   spriteMap.generateMipmaps = false;
-  //   for (let i = 1; i <= wRate; i++) {
-  //     position.x = dataTextureW * i - dataTextureW;
-  //     for (let j = 1; j <= hRate; j++) {
-  //       position.y = dataTextureH * j - dataTextureH;
-  //       // color.setHex(0xff0000);
-  //       // updateDataTexture(dataTexture, color);
-  //       renderer.copyTextureToTexture(position, spriteMap, diffuseMap);
-  //     }
-  //   }
-  // });
-  // for (let i = 1; i <= wRate; i++) {
-  //   position.x = dataTextureW * i - dataTextureW;
-  //   for (let j = 1; j <= hRate; j++) {
-  //     position.y = dataTextureH * j - dataTextureH;
-  //     color.setHex(0xff0000);
-  //     updateDataTexture(dataTexture, color);
-  //     renderer.copyTextureToTexture(position, dataTexture, diffuseMap);
-  //   }
-  // }
+  console.log(wRate * hRate);
 
   for (let i = 1; i <= wRate; i++) {
-    position.x = dataTextureW * i - dataTextureW;
+    let x = dataTextureW * i - dataTextureW;
     for (let j = 1; j <= hRate; j++) {
-      position.y = dataTextureH * j - dataTextureH;
+      let y = dataTextureH * j - dataTextureH;
       const loader = new THREE.TextureLoader();
       loader.load(
-        require('./images/sprite.jpg'),
+        './img/textures/sprite.jpg',
         (spriteMap: THREE.Texture) => {
           spriteMap.colorSpace = THREE.SRGBColorSpace;
           spriteMap.minFilter = THREE.LinearFilter;
           spriteMap.generateMipmaps = false;
 
           let newPosition = position.clone();
-          
+          newPosition.x = x;
+          newPosition.y = y;
+          renderer.copyTextureToTexture(newPosition, spriteMap, diffuseMap);
         },
       );
-      // color.setHex(0xff0000);
-      // updateDataTexture(dataTexture, color);
-      // renderer.copyTextureToTexture(position, dataTexture, diffuseMap);
     }
   }
 };
