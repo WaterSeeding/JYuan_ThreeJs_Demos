@@ -20,7 +20,7 @@ class SelectiveGlow {
 
     const bloomPass1 = new UnrealBloomPass(
       new Vector2(window.innerWidth, window.innerHeight),
-      5,
+      5.0,
       1,
       0,
     );
@@ -32,7 +32,7 @@ class SelectiveGlow {
 
     const bloomPass2 = new UnrealBloomPass(
       new Vector2(window.innerWidth, window.innerHeight),
-      2.5,
+      1.6,
       0,
       0,
     );

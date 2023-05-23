@@ -90,6 +90,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' BloomSphere 示例',
+      path: '/bloomSphere',
+      component: './BloomSphere',
+      layout: false,
+    },
+    {
       name: ' UnrealBloom 示例',
       path: '/unrealBloom',
       component: './UnrealBloom',

@@ -24,7 +24,7 @@ const Earth = () => {
       1,
       100,
     );
-    camera.position.set(0, 3, 5);
+    camera.position.set(0, 10, 10);
     const renderer = new THREE.WebGLRenderer({
       canvas: document.querySelector('canvas.webgl')!,
       antialias: true,
@@ -40,15 +40,22 @@ const Earth = () => {
       new THREE.SphereGeometry(1),
       new THREE.MeshBasicMaterial({ color: "red" })
     );
-    m1.position.set(-3, 0, 0);
+    m1.position.set(-3 * 2, 0, 0);
     scene.add(m1);
 
     let m2 = new THREE.Mesh(
       new THREE.SphereGeometry(1),
-      new THREE.MeshBasicMaterial({ color: "red" })
+      new THREE.MeshBasicMaterial({ color: "green" })
     );
-    m2.position.set(3, 0, 0);
+    m2.position.set(3 * 2, 0, 0);
     scene.add(m2);
+
+    let m0 = new THREE.Mesh(
+      new THREE.SphereGeometry(1),
+      new THREE.MeshBasicMaterial({ color: "blue" })
+    );
+    m0.position.set(0, 0, 0);
+    scene.add(m0);
 
     let sg = new SelectiveGlow(scene, camera, renderer);
     console.log(sg);
@@ -61,7 +68,9 @@ const Earth = () => {
     bp2.add(sg.bloomPass2, "strength", 0.0, 10.0);
     bp2.add(sg.bloomPass2, "radius", 0.0, 1.0);
 
-    renderer.setAnimationLoop((_) => {
+    renderer.setAnimationLoop(() => {
+      m0.material.color.set(0x000000);
+
       m1.material.color.set(0xff0000);
       m2.material.color.set(0x000000);
       sg.bloom1.render();
@@ -70,6 +79,7 @@ const Earth = () => {
       m2.material.color.set(0x00ff00);
       sg.bloom2.render();
 
+      m0.material.color.set(0x0000ff);
       m1.material.color.set(0xff0000);
       m2.material.color.set(0x00ff00);
       sg.final.render();
