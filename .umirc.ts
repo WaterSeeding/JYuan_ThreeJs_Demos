@@ -78,9 +78,9 @@ export default defineConfig({
       layout: false,
     },
     {
-      name: ' Bloom 示例',
-      path: '/bloom',
-      component: './Bloom',
+      name: ' BloomModel 示例',
+      path: '/bloomModel',
+      component: './BloomModel',
       layout: false,
     },
     {
