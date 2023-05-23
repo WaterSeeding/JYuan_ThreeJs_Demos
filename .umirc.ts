@@ -96,6 +96,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' BloomSelective 示例',
+      path: '/bloomSelective',
+      component: './BloomSelective',
+      layout: false,
+    },
+    {
       name: ' UnrealBloom 示例',
       path: '/unrealBloom',
       component: './UnrealBloom',
