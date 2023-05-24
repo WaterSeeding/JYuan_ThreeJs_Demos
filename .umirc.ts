@@ -102,6 +102,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' BloomLight 示例',
+      path: '/bloomLight',
+      component: './BloomLight',
+      layout: false,
+    },
+    {
       name: ' UnrealBloom 示例',
       path: '/unrealBloom',
       component: './UnrealBloom',
