@@ -6,43 +6,8 @@ import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
 import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass.js";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-
-const noise = `
-    float N21 (vec2 st) { // https://thebookofshaders.com/10/
-        return fract( sin( dot( st.xy, vec2(12.9898,78.233 ) ) ) *  43758.5453123);
-    }
-    
-    float smoothNoise( vec2 ip ){ // https://www.youtube.com/watch?v=zXsWftRdsvU
-      
-    	vec2 lv = fract( ip );
-      vec2 id = floor( ip );
-      
-      lv = lv * lv * ( 3. - 2. * lv );
-      
-      float bl = N21( id );
-      float br = N21( id + vec2( 1, 0 ));
-      float b = mix( bl, br, lv.x );
-      
-      float tl = N21( id + vec2( 0, 1 ));
-      float tr = N21( id + vec2( 1, 1 ));
-      float t = mix( tl, tr, lv.x );
-
-      return clamp(mix( b, t, lv.y ) * 0.5 + 0.5, 0., 1.);
-    }
-    
-    float smoothNoise2(vec2 p){
-
-      p.y += time;
-      p /= 4.;
-      
-      float n = smoothNoise(p) * 1.5;
-      n += smoothNoise(p * 2.01) * 0.25;
-      n += smoothNoise(p * 4.02) * 0.125;
-      n += smoothNoise(p * 8.03) * 0.0625;
-      n /= (1.5 + 0.25 + 0.125 + 0.0625);
-      return clamp(n, 0., 1.);
-    }
-  `;
+import { noise } from './noise'
+import { setRtScene } from './setRtScene'
 
 const Earth = () => {
   const [isInitScene, setIsInitScene] = useState<boolean>(false);
@@ -78,16 +43,14 @@ const Earth = () => {
 
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enablePan = false;
-    controls.minDistance = 5;
-    controls.maxDistance = 10;
-    controls.minPolarAngle = THREE.MathUtils.DEG2RAD * 60;
-    controls.maxPolarAngle = THREE.MathUtils.DEG2RAD * 90;
+    // controls.minDistance = 5;
+    // controls.maxDistance = 10;
+    // controls.minPolarAngle = THREE.MathUtils.DEG2RAD * 60;
+    // controls.maxPolarAngle = THREE.MathUtils.DEG2RAD * 90;
     controls.target.set(0, 2, 0);
     controls.enableDamping = true;
 
-    let light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(0, 3, -12);
-    scene.add(light, new THREE.AmbientLight(0xffffff, 0.5));
+    setLight(scene);
 
     let globalUniforms = {
       time: { value: 0 },
@@ -95,36 +58,15 @@ const Earth = () => {
       noise: { value: null }
     }
 
-    // rt ////////////////////////////////////////////////////////////////
+
+    // render target是一个缓冲，就是在这个缓冲中，视频卡为正在后台渲染的场景绘制像素。
     let renderTarget = new THREE.WebGLRenderTarget(512, 512);
-    let rtScene = new THREE.Scene();
-    let rtCamera = new THREE.Camera();
-    let rtGeo = new THREE.PlaneGeometry(2, 2);
-    let rtMat = new THREE.MeshBasicMaterial({
-      // @ts-ignore;
-      onBeforeCompile: shader => {
-        shader.uniforms.time = globalUniforms.time;
-        shader.fragmentShader = `
-    	uniform float time;
-      ${noise}
-      ${shader.fragmentShader}
-    `.replace(
-          `vec4 diffuseColor = vec4( diffuse, opacity );`,
-          `
-      	vec3 col = vec3(0);
-        float h = clamp(smoothNoise2(vUv * 50.), 0., 1.);
-        col = vec3(h);
-        vec4 diffuseColor = vec4( col, opacity );
-      `
-        );
-        //console.log(shader.fragmentShader);
-      }
-    });
-    rtMat.defines = { "USE_UV": "" };
-    let rtPlane = new THREE.Mesh(rtGeo, rtMat);
-    rtScene.add(rtPlane);
-    globalUniforms.noise.value = renderTarget.texture;
-    //////////////////////////////////////////////////////////////////////
+    // renderTarget.texture纹理实例保存这渲染的像素
+    globalUniforms.noise.value = renderTarget.texture as any;
+
+    // rt
+    let { rtScene,
+      rtCamera, } = setRtScene(globalUniforms)
 
     // luces
     let luces = [];
@@ -149,23 +91,22 @@ const Earth = () => {
       onBeforeCompile: shader => {
         shader.uniforms.noiseTex = globalUniforms.noise;
         shader.vertexShader = `
-      uniform sampler2D noiseTex;
-      attribute vec4 instData;
-      ${shader.vertexShader}
-    `.replace(
+          uniform sampler2D noiseTex;
+          attribute vec4 instData;
+          ${shader.vertexShader}
+        `.replace(
           `#include <begin_vertex>`,
           `#include <begin_vertex>
-      transformed = position * instData.z;
-      
-      transformed.x += instData.x;
-      transformed.z += instData.y;
-      vec2 nUv = (vec2(instData.x, -instData.y) - vec2(-25.)) / 50.;
-      float h = texture2D(noiseTex, nUv).g;
-      h = (h - 0.5) * 4.;
-      transformed.y += h;
-      `
+            transformed = position * instData.z;
+            
+            transformed.x += instData.x;
+            transformed.z += instData.y;
+            vec2 nUv = (vec2(instData.x, -instData.y) - vec2(-25.)) / 50.;
+            float h = texture2D(noiseTex, nUv).g;
+            h = (h - 0.5) * 4.;
+            transformed.y += h;
+          `
         );
-        //console.log(shader.fragmentShader);
       }
     });
     let lo = new THREE.Mesh(lg, lm);
@@ -271,7 +212,6 @@ const Earth = () => {
         }
       `
         );
-        //console.log(shader.fragmentShader);
       }
     });
     let plane = new THREE.Mesh(pg, pm);
@@ -493,6 +433,7 @@ const Earth = () => {
 
       controls.update();
 
+      // 需要被激活的renderTarget(可选)
       renderer.setRenderTarget(renderTarget);
       renderer.render(rtScene, rtCamera);
       renderer.setRenderTarget(null);
@@ -538,6 +479,12 @@ const Earth = () => {
       finalComposer.setSize(innerWidth, innerHeight);
     }
   };
+
+  const setLight = (scene: THREE.Scene) => {
+    let light = new THREE.DirectionalLight(0xffffff, 1);
+    light.position.set(0, 3, -12);
+    scene.add(light, new THREE.AmbientLight(0xffffff, 0.5));
+  }
 
 
   return (
