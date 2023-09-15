@@ -201,7 +201,8 @@ const Earth = () => {
       },
     });
     const plane = new THREE.Mesh(geometry, material);
-    plane.position.setZ(10);
+    plane.position.set(10, 100, 1)
+    // plane.position.setZ(10);
     earth.add(plane);
   };
 

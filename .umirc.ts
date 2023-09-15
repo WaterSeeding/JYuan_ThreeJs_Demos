@@ -144,6 +144,12 @@ export default defineConfig({
       layout: false,
     },
     {
+      name: ' Plane2 示例',
+      path: '/plane2',
+      component: './Plane2',
+      layout: false,
+    },
+    {
       name: 'LineSvg 示例',
       path: '/lineSvg',
       component: './LineSvg',
